@@ -1,0 +1,562 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18178878/zoom_0-1639821727.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Canary London",
+      "price": "₹ 799",
+      "before_disc": "₹1599",
+      "offer_percent": "50% off",
+      "category": {
+        "gender": "Men",
+        "type": "Formal-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 2,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18620559/zoom_0-1667391317.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "V Mart",
+      "price": "₹ 549",
+      "before_disc": "₹600",
+      "offer_percent": "9% off",
+      "category": {
+        "gender": "Men",
+        "type": "Formal-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 3,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18620672/zoom_0-1667391315.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "V Mart",
+      "price": "₹ 549",
+      "before_disc": "₹600",
+      "offer_percent": "9% off",
+      "category": {
+        "gender": "Men",
+        "type": "Formal-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 4,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18423372/zoom_0-1657118970.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Deshbandhu Khadi",
+      "price": "₹ 949",
+      "before_disc": "₹2040",
+      "offer_percent": "53% off",
+      "category": {
+        "gender": "Men",
+        "type": "Formal-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 5,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18845976/zoom_0-1670858182.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "V Mart",
+      "price": "₹ 449",
+      "before_disc": "₹475",
+      "offer_percent": "5% off",
+      "category": {
+        "gender": "Men",
+        "type": "Formal-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 6,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18423254/zoom_0-1657107788.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Deshbandhu Khadi",
+      "price": "₹ 949",
+      "before_disc": "₹2040",
+      "offer_percent": "53% off",
+      "category": {
+        "gender": "Men",
+        "type": "Formal-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 7,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/19102186/zoom_0-1672416708.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Canary London",
+      "price": "₹ 1899",
+      "before_disc": "₹2599",
+      "offer_percent": "27% off",
+      "category": {
+        "gender": "Men",
+        "type": "Formal-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 8,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18615495/zoom_0-1666451230.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "V Mart",
+      "price": "₹ 649",
+      "before_disc": "₹750",
+      "offer_percent": "13% off",
+      "category": {
+        "gender": "Men",
+        "type": "Formal-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 9,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/19131602/zoom_0-1673333755.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Ad By Arvind",
+      "price": "₹ 1599",
+      "before_disc": "₹2699",
+      "offer_percent": "41% off",
+      "category": {
+        "gender": "Men",
+        "type": "Formal-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 10,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/19102186/zoom_0-1672416708.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Canary London",
+      "price": "₹ 1899",
+      "before_disc": "₹2599",
+      "offer_percent": "27% off",
+      "category": {
+        "gender": "Men",
+        "type": "Formal-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 11,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18982100/zoom_0-1672406737.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Asciiblues",
+      "price": "₹ 699",
+      "before_disc": "₹1499",
+      "offer_percent": "53% off",
+      "category": {
+        "gender": "Men",
+        "type": "Formal-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 12,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18982118/zoom_0-1672406737.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Asciiblues",
+      "price": "₹ 649",
+      "before_disc": "₹1299",
+      "offer_percent": "50% off",
+      "category": {
+        "gender": "Men",
+        "type": "Formal-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 13,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18879115/zoom_0-1671203350.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Allen Kniel",
+      "price": "₹ 299",
+      "before_disc": "₹699",
+      "offer_percent": "57% off",
+      "category": {
+        "gender": "Men",
+        "type": "t-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 14,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18940370/zoom_0-1671704186.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Fashion Fricks",
+      "price": "₹ 399",
+      "before_disc": "₹599",
+      "offer_percent": "33% off",
+      "category": {
+        "gender": "Men",
+        "type": "t-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 15,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18940370/zoom_0-1671704186.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Fashion Fricks",
+      "price": "₹ 399",
+      "before_disc": "₹599",
+      "offer_percent": "33% off",
+      "category": {
+        "gender": "Men",
+        "type": "t-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 16,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18906307/zoom_0-1671443549.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Recast",
+      "price": "₹ 449",
+      "before_disc": "₹1199",
+      "offer_percent": "63% off",
+      "category": {
+        "gender": "Men",
+        "type": "t-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 17,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18879110/zoom_0-1671203351.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Allen Kniel",
+      "price": "₹ 299",
+      "before_disc": "₹799",
+      "offer_percent": "63% off",
+      "category": {
+        "gender": "Men",
+        "type": "t-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 18,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/19111579/zoom_0-1672591922.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Copperline",
+      "price": "₹ 1049",
+      "before_disc": "₹2599",
+      "offer_percent": "60% off",
+      "category": {
+        "gender": "Men",
+        "type": "t-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 19,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/19155754/zoom_0-1673431944.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Mountain Colours",
+      "price": "₹ 449",
+      "before_disc": "₹1499",
+      "offer_percent": "70% off",
+      "category": {
+        "gender": "Men",
+        "type": "t-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 20,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18313808/zoom_0-1648541975.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Classic Polo",
+      "price": "₹ 1149",
+      "before_disc": "₹1399",
+      "offer_percent": "18% off",
+      "category": {
+        "gender": "Men",
+        "type": "t-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 21,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/19010484/zoom_0-1672130184.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Venitian",
+      "price": "₹ 699",
+      "before_disc": "₹1299",
+      "offer_percent": "46% off",
+      "category": {
+        "gender": "Men",
+        "type": "t-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 22,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18341020/zoom_0-1657364886.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Shuan",
+      "price": "₹ 749",
+      "before_disc": "₹1499",
+      "offer_percent": "50% off",
+      "category": {
+        "gender": "Men",
+        "type": "Formal-shoes",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 23,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/19117433/zoom_0-1672739355.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Clogger International",
+      "price": "₹ 699",
+      "before_disc": "₹1499",
+      "offer_percent": "53% off",
+      "category": {
+        "gender": "Men",
+        "type": "Formal-shoes",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 24,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18927630/zoom_0-1671631630.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "AW",
+      "price": "₹ 699",
+      "before_disc": "₹999",
+      "offer_percent": "30% off",
+      "category": {
+        "gender": "Men",
+        "type": "Formal-shoes",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 25,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18341021/zoom_0-1657364886.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Duke",
+      "price": "₹ 749",
+      "before_disc": "₹1499",
+      "offer_percent": "50% off",
+      "category": {
+        "gender": "Men",
+        "type": "Formal-shoes",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 26,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/17286599/zoom_0-1600868839.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "LOUIS STITCH",
+      "price": "₹1949",
+      "before_disc": "₹6599",
+      "offer_percent": "70% off",
+      "category": {
+        "gender": "Men",
+        "type": "Formal-shoes",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 27,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18927624/zoom_0-1671631630.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Mutaqinoti",
+      "price": "₹699",
+      "before_disc": "₹999",
+      "offer_percent": "30% off",
+      "category": {
+        "gender": "Men",
+        "type": "Formal-shoes",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 28,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/17749482/zoom_0-1622640953.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "HATS OFF ACCESSORIES",
+      "price": "₹2299",
+      "before_disc": "₹6999",
+      "offer_percent": "67% off",
+      "category": {
+        "gender": "Men",
+        "type": "Formal-shoes",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 29,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/17737608/zoom_0-1621062827.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Mutaqinoti",
+      "price": "₹1599",
+      "before_disc": "₹4999",
+      "offer_percent": "67% off",
+      "category": {
+        "gender": "Men",
+        "type": "Formal-shoes",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 30,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18341022/zoom_0-1657364886.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Shuan",
+      "price": "₹749",
+      "before_disc": "₹1499",
+      "offer_percent": "50% off",
+      "category": {
+        "gender": "Men",
+        "type": "Formal-shoes",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 31,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18341022/zoom_0-1657364886.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Levanse",
+      "price": "₹849",
+      "before_disc": "₹1699",
+      "offer_percent": "50% off",
+      "category": {
+        "gender": "Men",
+        "type": "Formal-shoes",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    }
+  ]
+}
