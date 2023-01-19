@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import styles from "../Product Page/Product.module.css";
 import axios from "axios";
 import SingleProduct from "./SingleProduct";
+import Carousel from "better-react-carousel";
+import { Stack, useBreakpointValue } from "@chakra-ui/react";
 import {
   Accordion,
   AccordionItem,
@@ -17,12 +19,55 @@ import { AddIcon, MinusIcon } from "@chakra-ui/icons";
 const Products = () => {
   const [products, setProducts] = useState([]);
 
+  const [category, setCategory] = useState("");
+
   const getProducts = async () => {
     try {
       let response = await axios.get("http://localhost:4444/products");
 
       let data = response.data;
       setProducts(data);
+    } catch (err) {
+      alert(err);
+    }
+  };
+
+  const FilterByCategory = async (e) => {
+    try {
+      let response = await axios.get("http://localhost:4444/products");
+
+      let data = response.data;
+
+      setCategory(e.target.innerText);
+      let filterData = data.filter((item) => item.category.type === category);
+      setProducts(filterData);
+    } catch (err) {
+      alert(err);
+    }
+  };
+
+  const SortingLH = async () => {
+    try {
+      let response = await axios.get("http://localhost:4444/products");
+
+      let data = response.data;
+
+      let filterData = data.sort((a, b) => a.price - b.price);
+
+      setProducts(filterData);
+    } catch (err) {
+      alert(err);
+    }
+  };
+  const SortingHL = async () => {
+    try {
+      let response = await axios.get("http://localhost:4444/products");
+
+      let data = response.data;
+
+      let filterData = data.sort((a, b) => b.price - a.price);
+
+      setProducts(filterData);
     } catch (err) {
       alert(err);
     }
@@ -38,11 +83,18 @@ const Products = () => {
 
       <div className={styles.productLeft}>
         <div className={styles.productLeftTop}>
-          <h4>All</h4>
+          <h5>All</h5>
           <p>1754 products</p>
         </div>
         <div className={styles.sorting_section}>
-          <h4 style={{ fontWeight: "bold", fontSize: "15px" }}>
+          <h4
+            style={{
+              fontWeight: "bold",
+              fontSize: "12px",
+              color: "black",
+              padding: "10px 5px",
+            }}
+          >
             FILTER & SORT
           </h4>
           <Accordion allowMultiple>
@@ -52,7 +104,13 @@ const Products = () => {
                 <>
                   <h2>
                     <AccordionButton>
-                      <Box as="span" flex="1" textAlign="left">
+                      <Box
+                        as="span"
+                        flex="1"
+                        textAlign="left"
+                        fontSize={15}
+                        fontWeight="bold"
+                      >
                         Sort By
                       </Box>
                       {isExpanded ? (
@@ -62,11 +120,44 @@ const Products = () => {
                       )}
                     </AccordionButton>
                   </h2>
-                  <AccordionPanel pb={2}>T-Shirts</AccordionPanel>
-                  <AccordionPanel pb={2}>Formal Shirts</AccordionPanel>
-                  <AccordionPanel pb={2}>Discount</AccordionPanel>
-                  <AccordionPanel pb={2}>High Price</AccordionPanel>
-                  <AccordionPanel pb={2}>Low Price</AccordionPanel>
+                  <AccordionPanel
+                    pb={2}
+                    cursor="pointer"
+                    value={category}
+                    onClick={FilterByCategory}
+                  >
+                    T-Shirts
+                  </AccordionPanel>
+                  <AccordionPanel
+                    pb={2}
+                    cursor="pointer"
+                    value={category}
+                    onClick={FilterByCategory}
+                  >
+                    Formal Shirts
+                  </AccordionPanel>
+                  <AccordionPanel
+                    pb={2}
+                    cursor="pointer"
+                    value={category}
+                    onClick={FilterByCategory}
+                  >
+                    Formal Shoes
+                  </AccordionPanel>
+                  {/* <AccordionPanel
+                    pb={2}
+                    cursor="pointer"
+                    value={category}
+                    onClick={FilterByCategory}
+                  >
+                    Discount
+                  </AccordionPanel> */}
+                  <AccordionPanel pb={2} cursor="pointer" onClick={SortingHL}>
+                    High Price
+                  </AccordionPanel>
+                  <AccordionPanel pb={2} cursor="pointer" onClick={SortingLH}>
+                    Low Price
+                  </AccordionPanel>
                 </>
               )}
             </AccordionItem>
@@ -76,7 +167,13 @@ const Products = () => {
                 <>
                   <h2>
                     <AccordionButton>
-                      <Box as="span" flex="1" textAlign="left">
+                      <Box
+                        as="span"
+                        flex="1"
+                        textAlign="left"
+                        fontSize={15}
+                        fontWeight="bold"
+                      >
                         Price
                       </Box>
                       {isExpanded ? (
@@ -99,7 +196,13 @@ const Products = () => {
                 <>
                   <h2>
                     <AccordionButton>
-                      <Box as="span" flex="1" textAlign="left">
+                      <Box
+                        as="span"
+                        flex="1"
+                        textAlign="left"
+                        fontSize={15}
+                        fontWeight="bold"
+                      >
                         Discounts
                       </Box>
                       {isExpanded ? (
@@ -118,7 +221,11 @@ const Products = () => {
             {/* brand   */}
             <AccordionItem
               className={styles.overflow}
-              style={{ overflowY: "scroll", height: "60px" }}
+              style={{
+                overflowY: "scroll",
+                height: "350px",
+                position: "sticky",
+              }}
             >
               {({ isExpanded }) => (
                 <>
@@ -128,8 +235,8 @@ const Products = () => {
                         as="span"
                         flex="1"
                         textAlign="left"
-                        position="sticky"
-                        top="0"
+                        fontSize={15}
+                        fontWeight="bold"
                       >
                         brand
                       </Box>
@@ -170,7 +277,62 @@ const Products = () => {
       {/* ProductRight */}
       <div className={styles.productRight}>
         <div className={styles.categories}>
-          <p>TOP W</p>
+          <Stack>
+            <Carousel alignItems="center" cols={9} rows={1} gap={10} loop>
+              <Carousel.Item className={styles.categoriesItems}>
+                <p className={styles.categoriesItems}>Top Wear T Shirts</p>
+              </Carousel.Item>
+
+              <Carousel.Item>
+                <p className={styles.categoriesItems}>Casual Shirts</p>
+              </Carousel.Item>
+              <Carousel.Item>
+                <p className={styles.categoriesItems}>Sweatshirts</p>
+              </Carousel.Item>
+              <Carousel.Item>
+                <p className={styles.categoriesItems}>Jeans</p>
+              </Carousel.Item>
+              <Carousel.Item>
+                <p className={styles.categoriesItems}>Kurtas</p>
+              </Carousel.Item>
+              <Carousel.Item>
+                <p className={styles.categoriesItems}>Ethinic Wear Sets</p>
+              </Carousel.Item>
+              <Carousel.Item>
+                <p className={styles.categoriesItems}>Formal Shirts</p>
+              </Carousel.Item>
+              <Carousel.Item>
+                <p className={styles.categoriesItems}>Casual Trousers</p>
+              </Carousel.Item>
+              <Carousel.Item>
+                <p className={styles.categoriesItems}>Track pants</p>
+              </Carousel.Item>
+              <Carousel.Item>
+                <p className={styles.categoriesItems}>Casual Shirts</p>
+              </Carousel.Item>
+              <Carousel.Item>
+                <p className={styles.categoriesItems}>Sweatshirts</p>
+              </Carousel.Item>
+              <Carousel.Item>
+                <p className={styles.categoriesItems}>Jeans</p>
+              </Carousel.Item>
+              <Carousel.Item>
+                <p className={styles.categoriesItems}>Kurtas</p>
+              </Carousel.Item>
+              <Carousel.Item>
+                <p className={styles.categoriesItems}>Ethinic Wear Sets</p>
+              </Carousel.Item>
+              <Carousel.Item>
+                <p className={styles.categoriesItems}>Formal Shirts</p>
+              </Carousel.Item>
+              <Carousel.Item>
+                <p className={styles.categoriesItems}>Casual Trousers</p>
+              </Carousel.Item>
+              <Carousel.Item>
+                <p className={styles.categoriesItems}>Track pants</p>
+              </Carousel.Item>
+            </Carousel>
+          </Stack>
         </div>
         <div className={styles.allproducts}>
           {products.map((card) => (
