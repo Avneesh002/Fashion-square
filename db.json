@@ -1,0 +1,900 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18178878/zoom_0-1639821727.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Canary London",
+      "price": 799,
+      "before_disc": 1599,
+      "offer_percent": 50,
+      "category": {
+        "gender": "Men",
+        "type": "Formal Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 2,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18620559/zoom_0-1667391317.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "V Mart",
+      "price": 549,
+      "before_disc": 600,
+      "offer_percent": 9,
+      "category": {
+        "gender": "Men",
+        "type": "Formal Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 3,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18620672/zoom_0-1667391315.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "V Mart",
+      "price": 549,
+      "before_disc": 600,
+      "offer_percent": 9,
+      "category": {
+        "gender": "Men",
+        "type": "Formal Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 4,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18423372/zoom_0-1657118970.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Deshbandhu Khadi",
+      "price": 949,
+      "before_disc": 2040,
+      "offer_percent": 53,
+      "category": {
+        "gender": "Men",
+        "type": "Formal Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 5,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18845976/zoom_0-1670858182.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "V Mart",
+      "price": 449,
+      "before_disc": 475,
+      "offer_percent": 5,
+      "category": {
+        "gender": "Men",
+        "type": "Formal Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 6,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18423254/zoom_0-1657107788.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Deshbandhu Khadi",
+      "price": 949,
+      "before_disc": 2040,
+      "offer_percent": 53,
+      "category": {
+        "gender": "Men",
+        "type": "Formal Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 7,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/19102186/zoom_0-1672416708.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Canary London",
+      "price": 1899,
+      "before_disc": 2599,
+      "offer_percent": 27,
+      "category": {
+        "gender": "Men",
+        "type": "Formal Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 8,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18615495/zoom_0-1666451230.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "V Mart",
+      "price": 649,
+      "before_disc": 750,
+      "offer_percent": 13,
+      "category": {
+        "gender": "Men",
+        "type": "Formal Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 9,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/19131602/zoom_0-1673333755.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Ad By Arvind",
+      "price": 1599,
+      "before_disc": 2699,
+      "offer_percent": 41,
+      "category": {
+        "gender": "Men",
+        "type": "Formal Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 10,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/19102186/zoom_0-1672416708.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Canary London",
+      "price": 1899,
+      "before_disc": 2599,
+      "offer_percent": 27,
+      "category": {
+        "gender": "Men",
+        "type": "Formal Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 11,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18982100/zoom_0-1672406737.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Asciiblues",
+      "price": 699,
+      "before_disc": 1499,
+      "offer_percent": 53,
+      "category": {
+        "gender": "Men",
+        "type": "Formal Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 12,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18982118/zoom_0-1672406737.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Asciiblues",
+      "price": 649,
+      "before_disc": 1299,
+      "offer_percent": 50,
+      "category": {
+        "gender": "Men",
+        "type": "Formal Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 13,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18879115/zoom_0-1671203350.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Allen Kniel",
+      "price": 299,
+      "before_disc": 699,
+      "offer_percent": 57,
+      "category": {
+        "gender": "Men",
+        "type": "T-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 14,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18940370/zoom_0-1671704186.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Fashion Fricks",
+      "price": 399,
+      "before_disc": 599,
+      "offer_percent": 33,
+      "category": {
+        "gender": "Men",
+        "type": "T-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 15,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18940370/zoom_0-1671704186.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Fashion Fricks",
+      "price": 399,
+      "before_disc": 599,
+      "offer_percent": 33,
+      "category": {
+        "gender": "Men",
+        "type": "T-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 16,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18906307/zoom_0-1671443549.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Recast",
+      "price": 449,
+      "before_disc": 1199,
+      "offer_percent": 63,
+      "category": {
+        "gender": "Men",
+        "type": "T-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 17,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18879110/zoom_0-1671203351.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Allen Kniel",
+      "price": 299,
+      "before_disc": 799,
+      "offer_percent": 63,
+      "category": {
+        "gender": "Men",
+        "type": "T-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 18,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/19111579/zoom_0-1672591922.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Copperline",
+      "price": 1049,
+      "before_disc": 2599,
+      "offer_percent": 60,
+      "category": {
+        "gender": "Men",
+        "type": "T-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 19,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/19155754/zoom_0-1673431944.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Mountain Colours",
+      "price": 449,
+      "before_disc": 1499,
+      "offer_percent": 70,
+      "category": {
+        "gender": "Men",
+        "type": "T-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 20,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18313808/zoom_0-1648541975.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Classic Polo",
+      "price": 1149,
+      "before_disc": 1399,
+      "offer_percent": 18,
+      "category": {
+        "gender": "Men",
+        "type": "T-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 21,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/19010484/zoom_0-1672130184.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Venitian",
+      "price": 699,
+      "before_disc": 1299,
+      "offer_percent": 46,
+      "category": {
+        "gender": "Men",
+        "type": "T-Shirts",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 22,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18341020/zoom_0-1657364886.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Shuan",
+      "price": 749,
+      "before_disc": 1499,
+      "offer_percent": 50,
+      "category": {
+        "gender": "Men",
+        "type": "Formal Shoes",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 23,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/19117433/zoom_0-1672739355.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Clogger International",
+      "price": 699,
+      "before_disc": 1499,
+      "offer_percent": 53,
+      "category": {
+        "gender": "Men",
+        "type": "Formal Shoes",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 24,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18927630/zoom_0-1671631630.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "AW",
+      "price": 699,
+      "before_disc": 999,
+      "offer_percent": 30,
+      "category": {
+        "gender": "Men",
+        "type": "Formal Shoes",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 25,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18341021/zoom_0-1657364886.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Duke",
+      "price": 749,
+      "before_disc": 1499,
+      "offer_percent": 50,
+      "category": {
+        "gender": "Men",
+        "type": "Formal Shoes",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 26,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/17286599/zoom_0-1600868839.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "LOUIS STITCH",
+      "price": 1949,
+      "before_disc": 6599,
+      "offer_percent": 70,
+      "category": {
+        "gender": "Men",
+        "type": "Formal Shoes",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 27,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18927624/zoom_0-1671631630.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Mutaqinoti",
+      "price": 699,
+      "before_disc": 999,
+      "offer_percent": 30,
+      "category": {
+        "gender": "Men",
+        "type": "Formal Shoes",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 28,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/17749482/zoom_0-1622640953.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "HATS OFF ACCESSORIES",
+      "price": 2299,
+      "before_disc": 6999,
+      "offer_percent": 67,
+      "category": {
+        "gender": "Men",
+        "type": "Formal Shoes",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 29,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/17737608/zoom_0-1621062827.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Mutaqinoti",
+      "price": 1599,
+      "before_disc": 4999,
+      "offer_percent": 67,
+      "category": {
+        "gender": "Men",
+        "type": "Formal Shoes",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 30,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18341022/zoom_0-1657364886.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Shuan",
+      "price": 749,
+      "before_disc": 1499,
+      "offer_percent": 50,
+      "category": {
+        "gender": "Men",
+        "type": "Formal Shoes",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    },
+    {
+      "id": 31,
+      "image": [
+        "https://img3.junaroad.com/uiproducts/18341022/zoom_0-1657364886.jpg"
+      ],
+      "title": "Logo Print Round-Neck Sweatshirt",
+      "brand": "Levanse",
+      "price": 849,
+      "before_disc": 1699,
+      "offer_percent": 50,
+      "category": {
+        "gender": "Men",
+        "type": "Formal Shoes",
+        "model": "Western Wear"
+      },
+      "size": ["M", "S", "L", "XL", "XXL", "XXXL"],
+      "Quantity": 1
+    }
+  ],
+  "homepageProducts": [
+    {
+      "id": 101,
+      "bgF href": "https://www.limeroad.com/T-Shirts-new-arrivals-comfybasics-by-kanika-crystal-st63bbc7a7cc8b5e082d248dcc?src_id=feed_story__0",
+      "title": "New Arrivals | #ComfyBasics",
+      "img": "https://img0.junaroad.com/stories/story_p_63bbc7a7cc8b5e082d248dcc-1673860725.jpeg",
+      "dT href": "https://www.limeroad.com/user/5e0dd26e6f4a945d2dad2652/get_story_list",
+      "userImg": "https://img0.junaroad.com/user_profile/mid_profile_5e0dd26e6f4a945d2dad2652-1577965834.png",
+      "user": "kanika.crystal",
+      "_stf": 29930,
+      "followers": "29K",
+      "fs10": 18,
+      "translation_missing": "Likes",
+      "whatsappLink": "https://api.whatsapp.com/send?text=Checkout+this+amazing+fashion+blog+at+Limeroad%21%20New+Arrivals+%7C+%23ComfyBasics+%20https://www.limeroad.com/T-Shirts-new-arrivals-comfybasics-by-kanika-crystal-st63bbc7a7cc8b5e082d248dcc?src_id=feed_story__0"
+    },
+    {
+      "id": 102,
+      "bgF href": "https://www.limeroad.com/T-Shirts-new-arrivals-pickpolos-by-kanika-crystal-st63a95cd5f3805708227a5a64?src_id=feed_story__1",
+      "title": "New Arrivals| #PickPolos",
+      "img": "https://img2.junaroad.com/stories/story_p_63a95cd5f3805708227a5a64-1672997326.jpeg",
+      "dT href": "https://www.limeroad.com/user/5e0dd26e6f4a945d2dad2652/get_story_list",
+      "userImg": "https://img0.junaroad.com/user_profile/mid_profile_5e0dd26e6f4a945d2dad2652-1577965834.png",
+      "user": "kanika.crystal",
+      "_stf": 29930,
+      "followers": "29K",
+      "fs10": 83,
+      "translation_missing": "Likes",
+      "whatsappLink": "https://api.whatsapp.com/send?text=Checkout+this+amazing+fashion+blog+at+Limeroad%21%20New+Arrivals%7C+%23PickPolos+%20https://www.limeroad.com/T-Shirts-new-arrivals-pickpolos-by-kanika-crystal-st63a95cd5f3805708227a5a64?src_id=feed_story__1"
+    },
+    {
+      "id": 103,
+      "bgF href": "https://www.limeroad.com/casual-shirts-fresh-prints-in-the-house-by-kanika-user?src_id=feed_story__2",
+      "title": "Fresh Prints In The House",
+      "img": "https://img2.junaroad.com/stories/story_p_63b6830ffd1d3c18522ec047-1673860871.jpeg",
+      "dT href": "https://www.limeroad.com/user/5e0dd26e6f4a945d2dad2652/get_story_list",
+      "userImg": "https://img0.junaroad.com/user_profile/mid_profile_5e0dd26e6f4a945d2dad2652-1577965834.png",
+      "user": "kanika.crystal",
+      "_stf": 29930,
+      "followers": "29K",
+      "fs10": 23,
+      "translation_missing": "Likes",
+      "whatsappLink": "https://api.whatsapp.com/send?text=Checkout+this+amazing+fashion+blog+at+Limeroad%21%20Fresh+Prints+In+The+House%20https://www.limeroad.com/casual-shirts-fresh-prints-in-the-house-by-kanika-crystal-st63b6830ffd1d3c18522ec047?src_id=feed_story__2"
+    },
+    {
+      "id": 104,
+      "bgF href": "https://www.limeroad.com/sport-shoes-up-your-fashion-game-by-anujabofficial-st63abb0b2adb8b84ef739b66d?src_id=feed_story__0",
+      "title": "Up Your Fashion Game",
+      "img": "https://img0.junaroad.com/stories/story_p_63abb0b2adb8b84ef739b66d-1672373131.jpeg",
+      "dT href": "https://www.limeroad.com/user/61b092d713cb380813ff39f9/get_story_list",
+      "userImg": "https://img0.junaroad.com/user_profile/7.jpg",
+      "user": "anujabofficial",
+      "_stf": 407,
+      "followers": 407,
+      "fs10": 106,
+      "translation_missing": "Likes",
+      "whatsappLink": "https://api.whatsapp.com/send?text=Checkout+this+amazing+fashion+blog+at+Limeroad%21%20Up+Your+Fashion+Game%20https://www.limeroad.com/sport-shoes-up-your-fashion-game-by-anujabofficial-st63abb0b2adb8b84ef739b66d?src_id=feed_story__0"
+    },
+    {
+      "id": 105,
+      "bgF href": "https://www.limeroad.com/winterworthy-celeb-look-by-kanika-crystal-st63c50384f38057081856f28a?src_id=feed_story__1",
+      "title": "#WinterWorthy Celeb Look",
+      "img": "https://img2.junaroad.com/stories/story_p_63c50384f38057081856f28a-1673860919.jpeg",
+      "dT href": "https://www.limeroad.com/user/5e0dd26e6f4a945d2dad2652/get_story_list",
+      "userImg": "https://img0.junaroad.com/user_profile/mid_profile_5e0dd26e6f4a945d2dad2652-1577965834.png",
+      "user": "kanika.crystal",
+      "_stf": 29930,
+      "followers": "29K",
+      "fs10": 15,
+      "translation_missing": "Likes",
+      "whatsappLink": "https://api.whatsapp.com/send?text=Checkout+this+amazing+fashion+blog+at+Limeroad%21%20%23WinterWorthy+Celeb+Look%20https://www.limeroad.com/winterworthy-celeb-look-by-kanika-crystal-st63c50384f38057081856f28a?src_id=feed_story__1"
+    },
+    {
+      "id": 106,
+      "bgF href": "https://www.limeroad.com/analog-watches-invest-in-a-classic-watch-by-anujabofficial-st63bbc337adb8b86e86a163ed?src_id=feed_story__2",
+      "title": "Invest In A Classic Watch",
+      "img": "https://img3.junaroad.com/stories/story_p_63bbc337adb8b86e86a163ed-1673892334.jpeg",
+      "dT href": "https://www.limeroad.com/user/61b092d713cb380813ff39f9/get_story_list",
+      "userImg": "https://img0.junaroad.com/user_profile/7.jpg",
+      "user": "anujabofficial",
+      "_stf": 407,
+      "followers": 407,
+      "fs10": 40,
+      "translation_missing": "Likes",
+      "whatsappLink": "https://api.whatsapp.com/send?text=Checkout+this+amazing+fashion+blog+at+Limeroad%21%20Invest+In+A+Classic+Watch%20https://www.limeroad.com/analog-watches-invest-in-a-classic-watch-by-anujabofficial-st63bbc337adb8b86e86a163ed?src_id=feed_story__2"
+    },
+    {
+      "id": 107,
+      "bgF href": "https://www.limeroad.com/snag-shirts-chinos-and-sneakers-by-kanika-crystal-st63b683d013cb38081c3a1a68?src_id=feed_story__0",
+      "title": "Snag Shirts, Chinos And Sneakers",
+      "img": "https://img0.junaroad.com/stories/story_p_63b683d013cb38081c3a1a68-1673860769.jpeg",
+      "dT href": "https://www.limeroad.com/user/5e0dd26e6f4a945d2dad2652/get_story_list",
+      "userImg": "https://img0.junaroad.com/user_profile/mid_profile_5e0dd26e6f4a945d2dad2652-1577965834.png",
+      "user": "kanika.crystal",
+      "_stf": 29930,
+      "followers": "29K",
+      "fs10": 24,
+      "translation_missing": "Likes",
+      "whatsappLink": "https://api.whatsapp.com/send?text=Checkout+this+amazing+fashion+blog+at+Limeroad%21%20Snag+Shirts%2C+Chinos+And+Sneakers%20https://www.limeroad.com/snag-shirts-chinos-and-sneakers-by-kanika-crystal-st63b683d013cb38081c3a1a68?src_id=feed_story__0"
+    },
+    {
+      "id": 108,
+      "bgF href": "https://www.limeroad.com/jeans-new-year-new-wardrobe-by-kanika-crystal-st63b6818713cb38081c3a1717?src_id=feed_story__1",
+      "title": "New Year = New Wardrobe",
+      "img": "https://img2.junaroad.com/stories/story_p_63b6818713cb38081c3a1717-1673861012.jpeg",
+      "dT href": "https://www.limeroad.com/user/5e0dd26e6f4a945d2dad2652/get_story_list",
+      "userImg": "https://img0.junaroad.com/user_profile/mid_profile_5e0dd26e6f4a945d2dad2652-1577965834.png",
+      "user": "kanika.crystal",
+      "_stf": 29930,
+      "followers": "29K",
+      "fs10": 11,
+      "translation_missing": "Likes",
+      "whatsappLink": "https://api.whatsapp.com/send?text=Checkout+this+amazing+fashion+blog+at+Limeroad%21%20New+Year+%3D+New+Wardrobe%20https://www.limeroad.com/jeans-new-year-new-wardrobe-by-kanika-crystal-st63b6818713cb38081c3a1717?src_id=feed_story__1"
+    },
+    {
+      "id": 109,
+      "bgF href": "https://www.limeroad.com/shorts-all-new-and-totally-you-by-kanika-crystal-st63a937aff47b700829f6b5e2?src_id=feed_story__2",
+      "title": "All New And Totally You",
+      "img": "https://img3.junaroad.com/stories/story_p_63a937aff47b700829f6b5e2-1672991478.jpeg",
+      "dT href": "https://www.limeroad.com/user/5e0dd26e6f4a945d2dad2652/get_story_list",
+      "userImg": "https://img0.junaroad.com/user_profile/mid_profile_5e0dd26e6f4a945d2dad2652-1577965834.png",
+      "user": "kanika.crystal",
+      "_stf": 29930,
+      "followers": "29K",
+      "fs10": 8,
+      "translation_missing": "Likes",
+      "whatsappLink": "https://api.whatsapp.com/send?text=Checkout+this+amazing+fashion+blog+at+Limeroad%21%20All+New+And+Totally+You%20https://www.limeroad.com/shorts-all-new-and-totally-you-by-kanika-crystal-st63a937aff47b700829f6b5e2?src_id=feed_story__2"
+    },
+    {
+      "id": 110,
+      "bgF href": "https://www.limeroad.com/bracelets-make-a-statement-by-anujabofficial-st63be668ef47b7008346d21de?src_id=feed_story__0",
+      "title": "Make A Statement",
+      "img": "https://img0.junaroad.com/stories/story_p_63be668ef47b7008346d21de-1673611761.jpeg",
+      "dT href": "https://www.limeroad.com/user/61b092d713cb380813ff39f9/get_story_list",
+      "userImg": "https://img0.junaroad.com/user_profile/7.jpg",
+      "user": "anujabofficial",
+      "_stf": 407,
+      "followers": 407,
+      "fs10": 10,
+      "translation_missing": "Likes",
+      "whatsappLink": "https://api.whatsapp.com/send?text=Checkout+this+amazing+fashion+blog+at+Limeroad%21%20Make+A+Statement%20https://www.limeroad.com/bracelets-make-a-statement-by-anujabofficial-st63be668ef47b7008346d21de?src_id=feed_story__0"
+    },
+    {
+      "id": 111,
+      "bgF href": "https://www.limeroad.com/celeb-ootd-to-recreate-by-kanika-crystal-st63a2dcb5f38057082211c050?src_id=feed_story__1",
+      "title": "Celeb #OOTD To Recreate",
+      "img": "https://img2.junaroad.com/stories/story_p_63a2dcb5f38057082211c050-1671625641.jpeg",
+      "dT href": "https://www.limeroad.com/user/5e0dd26e6f4a945d2dad2652/get_story_list",
+      "userImg": "https://img0.junaroad.com/user_profile/mid_profile_5e0dd26e6f4a945d2dad2652-1577965834.png",
+      "user": "kanika.crystal",
+      "_stf": 29930,
+      "followers": "29K",
+      "fs10": 74,
+      "translation_missing": "Likes",
+      "whatsappLink": "https://api.whatsapp.com/send?text=Checkout+this+amazing+fashion+blog+at+Limeroad%21%20Celeb+%23OOTD+To+Recreate%20https://www.limeroad.com/celeb-ootd-to-recreate-by-kanika-crystal-st63a2dcb5f38057082211c050?src_id=feed_story__1"
+    },
+    {
+      "id": 112,
+      "bgF href": "https://www.limeroad.com/tap-here-to-snag-it-by-kanika-crystal-st63b7eacecc8b5e081af9847b?src_id=feed_story__2",
+      "title": "Tap Here To Snag It",
+      "img": "https://img3.junaroad.com/stories/story_p_63b7eacecc8b5e081af9847b-1673860623.jpeg",
+      "dT href": "https://www.limeroad.com/user/5e0dd26e6f4a945d2dad2652/get_story_list",
+      "userImg": "https://img0.junaroad.com/user_profile/mid_profile_5e0dd26e6f4a945d2dad2652-1577965834.png",
+      "user": "kanika.crystal",
+      "_stf": 29930,
+      "followers": "29K",
+      "fs10": 7,
+      "translation_missing": "Likes",
+      "whatsappLink": "https://api.whatsapp.com/send?text=Checkout+this+amazing+fashion+blog+at+Limeroad%21%20Tap+Here+To+Snag+It%20https://www.limeroad.com/tap-here-to-snag-it-by-kanika-crystal-st63b7eacecc8b5e081af9847b?src_id=feed_story__2"
+    },
+    {
+      "id": 113,
+      "bgF href": "https://www.limeroad.com/casual-trousers-super-hot-rn-by-kanika-crystal-st63a9391a13cb38081c75e4a1?src_id=feed_story__0",
+      "title": "Super Hot RN",
+      "img": "https://img0.junaroad.com/stories/story_p_63a9391a13cb38081c75e4a1-1672997257.jpeg",
+      "dT href": "https://www.limeroad.com/user/5e0dd26e6f4a945d2dad2652/get_story_list",
+      "userImg": "https://img0.junaroad.com/user_profile/mid_profile_5e0dd26e6f4a945d2dad2652-1577965834.png",
+      "user": "kanika.crystal",
+      "_stf": 29930,
+      "followers": "29K",
+      "fs10": 50,
+      "translation_missing": "Likes",
+      "whatsappLink": "https://api.whatsapp.com/send?text=Checkout+this+amazing+fashion+blog+at+Limeroad%21%20Super+Hot+RN%20https://www.limeroad.com/casual-trousers-super-hot-rn-by-kanika-crystal-st63a9391a13cb38081c75e4a1?src_id=feed_story__0"
+    },
+    {
+      "id": 114,
+      "bgF href": "https://www.limeroad.com/trending-bloodstone-red-by-kanika-crystal-st63a93b62b388b0081843eed5?src_id=feed_story__1",
+      "title": "#Trending BloodStone Red",
+      "img": "https://img2.junaroad.com/stories/story_p_63a93b62b388b0081843eed5-1672997284.jpeg",
+      "dT href": "https://www.limeroad.com/user/5e0dd26e6f4a945d2dad2652/get_story_list",
+      "userImg": "https://img0.junaroad.com/user_profile/mid_profile_5e0dd26e6f4a945d2dad2652-1577965834.png",
+      "user": "kanika.crystal",
+      "_stf": 29930,
+      "followers": "29K",
+      "fs10": 27,
+      "translation_missing": "Likes",
+      "whatsappLink": "https://api.whatsapp.com/send?text=Checkout+this+amazing+fashion+blog+at+Limeroad%21%20%23Trending+BloodStone+Red+%20https://www.limeroad.com/trending-bloodstone-red-by-kanika-crystal-st63a93b62b388b0081843eed5?src_id=feed_story__1"
+    },
+    {
+      "id": 115,
+      "bgF href": "https://www.limeroad.com/analog-watches-get-timeless-pieces-here-by-anujabofficial-st63ad289a13cb38082a949255?src_id=feed_story__2",
+      "title": "Get Timeless Pieces Here",
+      "img": "https://img3.junaroad.com/stories/story_p_63ad289a13cb38082a949255-1672360620.jpeg",
+      "dT href": "https://www.limeroad.com/user/61b092d713cb380813ff39f9/get_story_list",
+      "userImg": "https://img0.junaroad.com/user_profile/7.jpg",
+      "user": "anujabofficial",
+      "_stf": 407,
+      "followers": 407,
+      "fs10": 59,
+      "translation_missing": "Likes",
+      "whatsappLink": "https://api.whatsapp.com/send?text=Checkout+this+amazing+fashion+blog+at+Limeroad%21%20Get+Timeless+Pieces+Here%20https://www.limeroad.com/analog-watches-get-timeless-pieces-here-by-anujabofficial-st63ad289a13cb38082a949255?src_id=feed_story__2"
+    },
+    {
+      "id": 116,
+      "bgF href": "https://www.limeroad.com/ethnic-wear-sets-the-festive-edit-lohri-by-kanika-crystal-st63b7f02113cb38082a015356?src_id=feed_story__0",
+      "title": "The Festive Edit | #Lohri",
+      "img": "https://img0.junaroad.com/stories/story_p_63b7f02113cb38082a015356-1673860390.jpeg",
+      "dT href": "https://www.limeroad.com/user/5e0dd26e6f4a945d2dad2652/get_story_list",
+      "userImg": "https://img0.junaroad.com/user_profile/mid_profile_5e0dd26e6f4a945d2dad2652-1577965834.png",
+      "user": "kanika.crystal",
+      "_stf": 29930,
+      "followers": "29K",
+      "fs10": 1,
+      "translation_missing": "Like",
+      "whatsappLink": "https://api.whatsapp.com/send?text=Checkout+this+amazing+fashion+blog+at+Limeroad%21%20The+Festive+Edit+%7C+%23Lohri%20https://www.limeroad.com/ethnic-wear-sets-the-festive-edit-lohri-by-kanika-crystal-st63b7f02113cb38082a015356?src_id=feed_story__0"
+    },
+    {
+      "id": 117,
+      "bgF href": "https://www.limeroad.com/casual-shirts-it-s-worth-the-splurge-by-kanika-crystal-st63b67dcfcc8b5e084a7f49c4?src_id=feed_story__1",
+      "title": "It's Worth The Splurge",
+      "img": "https://img2.junaroad.com/stories/story_p_63b67dcfcc8b5e084a7f49c4-1673861129.jpeg",
+      "dT href": "https://www.limeroad.com/user/5e0dd26e6f4a945d2dad2652/get_story_list",
+      "userImg": "https://img0.junaroad.com/user_profile/mid_profile_5e0dd26e6f4a945d2dad2652-1577965834.png",
+      "user": "kanika.crystal",
+      "_stf": 29930,
+      "followers": "29K",
+      "fs10": 6,
+      "translation_missing": "Likes",
+      "whatsappLink": "https://api.whatsapp.com/send?text=Checkout+this+amazing+fashion+blog+at+Limeroad%21%20It%27s+Worth+The+Splurge%20https://www.limeroad.com/casual-shirts-it-s-worth-the-splurge-by-kanika-crystal-st63b67dcfcc8b5e084a7f49c4?src_id=feed_story__1"
+    },
+    {
+      "id": 118,
+      "bgF href": "https://www.limeroad.com/casual-shirts-from-desk-to-dinner-by-kanika-crystal-st63abfed613cb38082866553b?src_id=feed_story__2",
+      "title": "From Desk To Dinner",
+      "img": "https://img3.junaroad.com/stories/story_p_63abfed613cb38082866553b-1672221247.jpeg",
+      "dT href": "https://www.limeroad.com/user/5e0dd26e6f4a945d2dad2652/get_story_list",
+      "userImg": "https://img0.junaroad.com/user_profile/mid_profile_5e0dd26e6f4a945d2dad2652-1577965834.png",
+      "user": "kanika.crystal",
+      "_stf": 29930,
+      "followers": "29K",
+      "fs10": 65,
+      "translation_missing": "Likes",
+      "whatsappLink": "https://api.whatsapp.com/send?text=Checkout+this+amazing+fashion+blog+at+Limeroad%21%20From+Desk+To+Dinner%20https://www.limeroad.com/casual-shirts-from-desk-to-dinner-by-kanika-crystal-st63abfed613cb38082866553b?src_id=feed_story__2"
+    },
+    {
+      "id": 119,
+      "bgF href": "https://www.limeroad.com/casual-shirts-from-desk-to-dinner-by-kanika-crystal-st63abfed613cb38082866553b?src_id=feed_story__0",
+      "title": "From Desk To Dinner",
+      "img": "https://img0.junaroad.com/stories/story_p_63abfed613cb38082866553b-1672221247.jpeg",
+      "dT href": "https://www.limeroad.com/user/5e0dd26e6f4a945d2dad2652/get_story_list",
+      "userImg": "https://img0.junaroad.com/user_profile/mid_profile_5e0dd26e6f4a945d2dad2652-1577965834.png",
+      "user": "kanika.crystal",
+      "_stf": 29930,
+      "followers": "29K",
+      "fs10": 65,
+      "translation_missing": "Likes",
+      "whatsappLink": "https://api.whatsapp.com/send?text=Checkout+this+amazing+fashion+blog+at+Limeroad%21%20From+Desk+To+Dinner%20https://www.limeroad.com/casual-shirts-from-desk-to-dinner-by-kanika-crystal-st63abfed613cb38082866553b?src_id=feed_story__0"
+    },
+    {
+      "id": 120,
+      "bgF href": "https://www.limeroad.com/T-Shirts-new-arrivals-pickpolos-by-kanika-crystal-st63a95cd5f3805708227a5a64?src_id=feed_story__1",
+      "title": "New Arrivals| #PickPolos",
+      "img": "https://img2.junaroad.com/stories/story_p_63a95cd5f3805708227a5a64-1672997326.jpeg",
+      "dT href": "https://www.limeroad.com/user/5e0dd26e6f4a945d2dad2652/get_story_list",
+      "userImg": "https://img0.junaroad.com/user_profile/mid_profile_5e0dd26e6f4a945d2dad2652-1577965834.png",
+      "user": "kanika.crystal",
+      "_stf": 29930,
+      "followers": "29K",
+      "fs10": 83,
+      "translation_missing": "Likes",
+      "whatsappLink": "https://api.whatsapp.com/send?text=Checkout+this+amazing+fashion+blog+at+Limeroad%21%20New+Arrivals%7C+%23PickPolos+%20https://www.limeroad.com/T-Shirts-new-arrivals-pickpolos-by-kanika-crystal-st63a95cd5f3805708227a5a64?src_id=feed_story__1"
+    },
+    {
+      "id": 121,
+      "bgF href": "https://www.limeroad.com/trending-bloodstone-red-by-kanika-crystal-st63a93b62b388b0081843eed5?src_id=feed_story__2",
+      "title": "#Trending BloodStone Red",
+      "img": "https://img3.junaroad.com/stories/story_p_63a93b62b388b0081843eed5-1672997284.jpeg",
+      "dT href": "https://www.limeroad.com/user/5e0dd26e6f4a945d2dad2652/get_story_list",
+      "userImg": "https://img0.junaroad.com/user_profile/mid_profile_5e0dd26e6f4a945d2dad2652-1577965834.png",
+      "user": "kanika.crystal",
+      "_stf": 29930,
+      "followers": "29K",
+      "fs10": 27,
+      "translation_missing": "Likes",
+      "whatsappLink": "https://api.whatsapp.com/send?text=Checkout+this+amazing+fashion+blog+at+Limeroad%21%20%23Trending+BloodStone+Red+%20https://www.limeroad.com/trending-bloodstone-red-by-kanika-crystal-st63a93b62b388b0081843eed5?src_id=feed_story__2"
+    },
+    {
+      "id": 122,
+      "bgF href": "https://www.limeroad.com/trending-this-year-by-kanika-crystal-st63ad51d0f380570823be15db?src_id=feed_story__0",
+      "title": "Trending This Year",
+      "img": "https://img0.junaroad.com/stories/story_p_63ad51d0f380570823be15db-1672997394.jpeg",
+      "dT href": "https://www.limeroad.com/user/5e0dd26e6f4a945d2dad2652/get_story_list",
+      "userImg": "https://img0.junaroad.com/user_profile/mid_profile_5e0dd26e6f4a945d2dad2652-1577965834.png",
+      "user": "kanika.crystal",
+      "_stf": 29930,
+      "followers": "29K",
+      "fs10": 47,
+      "translation_missing": "Likes",
+      "whatsappLink": "https://api.whatsapp.com/send?text=Checkout+this+amazing+fashion+blog+at+Limeroad%21%20Trending+This+Year%20https://www.limeroad.com/trending-this-year-by-kanika-crystal-st63ad51d0f380570823be15db?src_id=feed_story__0"
+    },
+    {
+      "id": 123,
+      "bgF href": "https://www.limeroad.com/casual-cool-comfy-by-kanika-crystal-st63b68bd7fd1d3c18522ecb48?src_id=feed_story__1",
+      "title": "Casual. Cool. Comfy",
+      "img": "https://img2.junaroad.com/stories/story_p_63b68bd7fd1d3c18522ecb48-1673333935.jpeg",
+      "dT href": "https://www.limeroad.com/user/5e0dd26e6f4a945d2dad2652/get_story_list",
+      "userImg": "https://img0.junaroad.com/user_profile/mid_profile_5e0dd26e6f4a945d2dad2652-1577965834.png",
+      "user": "kanika.crystal",
+      "_stf": 29930,
+      "followers": "29K",
+      "fs10": 40,
+      "translation_missing": "Likes",
+      "whatsappLink": "https://api.whatsapp.com/send?text=Checkout+this+amazing+fashion+blog+at+Limeroad%21%20Casual.+Cool.+Comfy%20https://www.limeroad.com/casual-cool-comfy-by-kanika-crystal-st63b68bd7fd1d3c18522ecb48?src_id=feed_story__1"
+    },
+    {
+      "id": 124,
+      "bgF href": "https://www.limeroad.com/vests-tank-tops-ft-ishaan-khattar-by-kanika-crystal-st63ac0660adb8b84ef73a511f?src_id=feed_story__2",
+      "title": "Tank Tops Ft. Ishaan Khattar",
+      "img": "https://img3.junaroad.com/stories/story_p_63ac0660adb8b84ef73a511f-1672221452.jpeg",
+      "dT href": "https://www.limeroad.com/user/5e0dd26e6f4a945d2dad2652/get_story_list",
+      "userImg": "https://img0.junaroad.com/user_profile/mid_profile_5e0dd26e6f4a945d2dad2652-1577965834.png",
+      "user": "kanika.crystal",
+      "_stf": 29930,
+      "followers": "29K",
+      "fs10": 12,
+      "translation_missing": "Likes",
+      "whatsappLink": "https://api.whatsapp.com/send?text=Checkout+this+amazing+fashion+blog+at+Limeroad%21%20Tank+Tops+Ft.+Ishaan+Khattar%20https://www.limeroad.com/vests-tank-tops-ft-ishaan-khattar-by-kanika-crystal-st63ac0660adb8b84ef73a511f?src_id=feed_story__2"
+    }
+  ]
+}
