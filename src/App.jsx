@@ -3,10 +3,13 @@ import "./App.css";
 
 //import Basepage from "./Pages/Basepage";
 // import Products from "./Pages/Product Page/Products";
-// import Navbar from './Components/Navbar/Navbar'
+import Navbar_main from './Components/Navbar/Navbar_main'
 
 function App() {
-  return <div className="App"></div>;
+  return <div className="App">
+    <Navbar_main/>
+   
+  </div>;
 }
 
 export default App;
