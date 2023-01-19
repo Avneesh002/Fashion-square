@@ -6,46 +6,46 @@ import {
   Avatar,
   CardHeader,
   Box,
-  Input,
-  VStack,
   HStack,
   Heading,
   Stack,
-  FormControl,
-  FormLabel,
 } from "@chakra-ui/react";
 import React from "react";
+import Floating_Input_Lebel from "../../Components/Floating_Input_Lebel";
 
 const Login = () => {
   return (
-    <Container p={4}>
-      <Stack spacing={6} align="stretch">
-        <Card direction={"row"} alignItems={"center"}>
+    // maxW='full' centerContent
+    <Container maxW="container.sm" mt={6} >
+      <Stack maxW={"full"} gap={20} align="stretch">
+        <Card
+          direction={"row"}
+          alignItems={"center"}
+          boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
+        >
           <CardHeader>
             <Avatar
               size="xl"
               name="Segun Adebayo"
               src="https://bit.ly/sage-adebayo"
-            />{" "}
+            />
           </CardHeader>
           <CardBody direction="column">
-            <HStack>
+            <HStack w={"200px"} p={2} borderBottom={"1px solid black"}>
               <Avatar
                 size="sm"
                 name="Segun Adebayo"
                 src="https://bit.ly/sage-adebayo"
               />
-              <Heading>SIGN IN</Heading>
+              <Heading fontWeight={"semibold"}>SIGN IN</Heading>
             </HStack>
-            <hr heigth={"2px"} />
-            <Text fontSize="xl">sign in to proceed further</Text>
+            <Text fontSize="3xl" >
+              sign in to proceed further
+            </Text>
           </CardBody>
         </Card>
         <Box>
-          <FormControl variant="floating">
-            <Input variant="flushed" placeholder=" " />
-            <FormLabel>Mobile Number</FormLabel>
-          </FormControl>
+          <Floating_Input_Lebel />
         </Box>
       </Stack>
     </Container>
