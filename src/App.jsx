@@ -1,5 +1,5 @@
 import "./App.css";
-import Homepage from "./Pages/Homepage/Homepage";
+// import Homepage from "./Pages/Homepage/Homepage";
 
 //import Basepage from "./Pages/Basepage";
 // import Products from "./Pages/Product Page/Products";
@@ -8,7 +8,7 @@ import Homepage from "./Pages/Homepage/Homepage";
 function App() {
   return (
     <div className="App">
-      <Homepage />
+      
     </div>
   );
 }
