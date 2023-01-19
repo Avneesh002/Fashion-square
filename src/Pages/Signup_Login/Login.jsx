@@ -16,12 +16,13 @@ import Floating_Input_Lebel from "../../Components/Floating_Input_Lebel";
 const Login = () => {
   return (
     // maxW='full' centerContent
-    <Container maxW="container.sm" mt={6} >
+    <Container maxW="md" mt={6} >
       <Stack maxW={"full"} gap={20} align="stretch">
         <Card
           direction={"row"}
           alignItems={"center"}
           boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
+          borderRadius={"0px"}
         >
           <CardHeader>
             <Avatar
@@ -39,7 +40,7 @@ const Login = () => {
               />
               <Heading fontWeight={"semibold"}>SIGN IN</Heading>
             </HStack>
-            <Text fontSize="3xl" >
+            <Text fontSize="xl" >
               sign in to proceed further
             </Text>
           </CardBody>
