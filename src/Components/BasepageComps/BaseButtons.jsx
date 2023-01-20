@@ -1,7 +1,13 @@
 import { Button, Stack, useBreakpointValue } from "@chakra-ui/react";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const BaseButtons = () => {
+  const navigate = useNavigate();
+  const handleHomepage = () => {
+    navigate("/");
+  };
+
   return (
     <Stack
       mt={"110px"}
@@ -9,6 +15,7 @@ const BaseButtons = () => {
       spacing="6"
     >
       <Button
+        onClick={handleHomepage}
         h={"3rem"}
         w={"18rem"}
         fontWeight={"500"}

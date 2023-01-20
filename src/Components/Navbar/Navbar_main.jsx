@@ -13,7 +13,9 @@ const Navbar = () => {
       <header>
         <div className="container">
           <div className="logo">
-            <img width={180} src={logo} alt="" />
+            <Link to="/">
+              <img width={180} src={logo} alt="" />
+            </Link>
           </div>
           <nav>
             <ul>
@@ -229,13 +231,13 @@ const Navbar = () => {
                 <p className="icon-name">CART</p>
               </span>
 
-              <span className="icon-div">
-                <Link to="/login">
+              <Link to="/login">
+                <span className="icon-div">
                   <BsPersonFill className="header-icon" />
 
                   <p className="icon-name">PROFILE</p>
-                </Link>
-              </span>
+                </span>
+              </Link>
             </div>
           </div>
         </div>

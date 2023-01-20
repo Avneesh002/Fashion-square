@@ -11,29 +11,46 @@ import {
 import axios from "axios";
 import { BsSuitHeart, BsWhatsapp } from "react-icons/bs";
 import { FaHeart } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const ProductsHomepage = () => {
   const [data, setData] = useState([]);
   const [liked, setLiked] = useState(false);
-  const [heart, setHeart] = useState("");
+  const [heart, setHeart] = useState([]);
 
   const handleWhatsapp = (link) => {
     window.location.href = link;
   };
 
   const handleLike = async (id, likes) => {
+    if (heart.length > 0) {
+      for (let i = 0; i < heart.length; i++) {
+        if (heart[i] === id) {
+          let newLikes = likes - 1;
+
+          let d = await axios.patch(
+            `http://localhost:3000/homepageProducts/${id}`,
+            {
+              fs10: newLikes,
+            }
+          );
+          heart[i] = 0;
+          setLiked(!liked);
+
+          return;
+        }
+      }
+    }
+
     let newLikes = likes + 1;
     let d = await axios.patch(`http://localhost:3000/homepageProducts/${id}`, {
       fs10: newLikes,
     });
     setLiked(!liked);
-    console.log("sattan", id, likes);
-    setHeart(+id);
-    // console.log("bhai", d.data.id);
-    // if (d.data.id === id) {
-    //   setHeart(<FaHeart />);
-    // }
+
+    setHeart([...heart, +id]);
   };
+  // console.log(heart);
 
   const getData = async () => {
     try {
@@ -45,9 +62,9 @@ const ProductsHomepage = () => {
     }
   };
 
-  const handleClick = () => {
-    window.location.href = "#";
-  };
+  // const handleClick = () => {
+  //   window.location.href = "#";
+  // };
 
   // console.log(data);
   React.useEffect(() => {
@@ -67,14 +84,16 @@ const ProductsHomepage = () => {
             {el.title}
           </Text>
 
-          <img
-            style={{
-              cursor: "pointer",
-            }}
-            onClick={handleClick}
-            src={el.img}
-            alt=""
-          />
+          <Link to="/products">
+            <img
+              style={{
+                cursor: "pointer",
+              }}
+              // onClick={handleClick}
+              src={el.img}
+              alt=""
+            />
+          </Link>
 
           <Stack pl={"5px"} direction={"row"}>
             <Stack align={"center"}>
@@ -107,11 +126,7 @@ const ProductsHomepage = () => {
                   align="center"
                   justify={"center"}
                 >
-                  {/* {el.id === heart ? (
-                    <FaHeart />
-                  ) : ( */}
                   <BsSuitHeart color="#D3145A" fontSize={"32px"} />
-                  {/* // )} */}
                 </Stack>
                 <Text fontWeight={"500"} fontSize={"11px"}>
                   {el.fs10} Likes
