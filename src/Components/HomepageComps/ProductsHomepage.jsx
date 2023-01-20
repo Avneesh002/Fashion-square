@@ -6,6 +6,7 @@ import {
   Text,
   useBreakpointValue,
   Avatar,
+  Button,
 } from "@chakra-ui/react";
 import axios from "axios";
 import { BsSuitHeart, BsWhatsapp } from "react-icons/bs";
@@ -13,6 +14,8 @@ import { FaHeart } from "react-icons/fa";
 
 const ProductsHomepage = () => {
   const [data, setData] = useState([]);
+  const [liked, setLiked] = useState(false);
+  const [heart, setHeart] = useState("");
 
   const handleWhatsapp = (link) => {
     window.location.href = link;
@@ -23,6 +26,13 @@ const ProductsHomepage = () => {
     let d = await axios.patch(`http://localhost:3000/homepageProducts/${id}`, {
       fs10: newLikes,
     });
+    setLiked(!liked);
+    console.log("sattan", id, likes);
+    setHeart(+id);
+    // console.log("bhai", d.data.id);
+    // if (d.data.id === id) {
+    //   setHeart(<FaHeart />);
+    // }
   };
 
   const getData = async () => {
@@ -39,10 +49,10 @@ const ProductsHomepage = () => {
     window.location.href = "#";
   };
 
-  console.log(data);
+  // console.log(data);
   React.useEffect(() => {
     getData();
-  }, []);
+  }, [liked]);
 
   return (
     <SimpleGrid
@@ -97,7 +107,11 @@ const ProductsHomepage = () => {
                   align="center"
                   justify={"center"}
                 >
+                  {/* {el.id === heart ? (
+                    <FaHeart />
+                  ) : ( */}
                   <BsSuitHeart color="#D3145A" fontSize={"32px"} />
+                  {/* // )} */}
                 </Stack>
                 <Text fontWeight={"500"} fontSize={"11px"}>
                   {el.fs10} Likes
