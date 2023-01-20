@@ -201,7 +201,9 @@ export default function Floating_Input_Lebel() {
 
         <Text>{error}</Text>
         <Text>{user}</Text>
-        {/* </form> */}
+        {
+          loading ? <Text >Loading...</Text> :null
+        }
       </Box>
     </ChakraProvider>
   );
