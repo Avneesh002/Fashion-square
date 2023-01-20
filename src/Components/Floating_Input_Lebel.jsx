@@ -12,9 +12,11 @@ import {
   PinInput,
   PinInputField,
 } from "@chakra-ui/react";
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { RecaptchaVerifier, signInWithPhoneNumber } from "firebase/auth";
 import { auth } from "../Pages/Signup_Login/FireBase";
+import { useNavigate } from "react-router-dom";
+import { AuthContext } from "../Redux/AuthContext";
 // import { async } from "@firebase/util";
 
 const activeLabelStyles = {
@@ -59,6 +61,9 @@ export default function Floating_Input_Lebel() {
   const [loading, setisLoading] = useState(false);
   const [flag, setFlag] = useState(false);
 
+  const navigate = useNavigate();
+  const { changeAuthStatus } = useContext(AuthContext);
+
   function setUpRecaptha() {
     if (!window.recaptchaVerifier) {
       window.recaptchaVerifier = new RecaptchaVerifier(
@@ -93,7 +98,7 @@ export default function Floating_Input_Lebel() {
       .catch((error) => {
         console.log(error);
         setError(error.message);
-        setisLoading(flase);
+        setisLoading(false);
       });
   }
 
@@ -105,6 +110,10 @@ export default function Floating_Input_Lebel() {
         console.log(res);
         setisLoading(false);
         setUser(res.operationType);
+        changeAuthStatus();
+        if (res.operationType === "signIn") {
+          return navigate("/");
+        }
       })
       .catch((err) => {
         setError(err.message);

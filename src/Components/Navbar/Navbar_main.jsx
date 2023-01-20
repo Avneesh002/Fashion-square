@@ -5,6 +5,7 @@ import { BsFillPencilFill } from "react-icons/bs";
 import { AiOutlineSearch } from "react-icons/ai";
 import { HiShoppingCart } from "react-icons/hi";
 import { BsPersonFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -20,7 +21,9 @@ const Navbar = () => {
                 <a href="#">WOMEN</a>
               </li>
               <li className="hover-effect">
-                <a href="#">MEN</a>
+                <Link to="/products">
+                  <a href="#">MEN</a>
+                </Link>
                 <div className="mega-menu">
                   <div className="mega-menu-items">
                     <h3>Top Wears</h3>
@@ -227,9 +230,11 @@ const Navbar = () => {
               </span>
 
               <span className="icon-div">
-                <BsPersonFill className="header-icon" />
+                <Link to="/login">
+                  <BsPersonFill className="header-icon" />
 
-                <p className="icon-name">PROFILE</p>
+                  <p className="icon-name">PROFILE</p>
+                </Link>
               </span>
             </div>
           </div>
