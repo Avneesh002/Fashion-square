@@ -19,11 +19,9 @@ import { AddIcon, MinusIcon } from "@chakra-ui/icons";
 const Products = () => {
   const [products, setProducts] = useState([]);
 
-  const [category, setCategory] = useState("");
-
   const getProducts = async () => {
     try {
-      let response = await axios.get("http://localhost:4444/products");
+      let response = await axios.get("http://localhost:3000/products");
 
       let data = response.data;
       setProducts(data);
@@ -32,13 +30,12 @@ const Products = () => {
     }
   };
 
-  const FilterByCategory = async (e) => {
+  const FilterByCategory = async (category) => {
     try {
-      let response = await axios.get("http://localhost:4444/products");
+      let response = await axios.get("http://localhost:3000/products");
 
       let data = response.data;
 
-      setCategory(e.target.innerText);
       let filterData = data.filter((item) => item.category.type === category);
       setProducts(filterData);
     } catch (err) {
@@ -48,7 +45,7 @@ const Products = () => {
 
   const SortingLH = async () => {
     try {
-      let response = await axios.get("http://localhost:4444/products");
+      let response = await axios.get("http://localhost:3000/products");
 
       let data = response.data;
 
@@ -61,7 +58,7 @@ const Products = () => {
   };
   const SortingHL = async () => {
     try {
-      let response = await axios.get("http://localhost:4444/products");
+      let response = await axios.get("http://localhost:3000/products");
 
       let data = response.data;
 
@@ -123,24 +120,21 @@ const Products = () => {
                   <AccordionPanel
                     pb={2}
                     cursor="pointer"
-                    value={category}
-                    onClick={FilterByCategory}
+                    onClick={(e) => FilterByCategory(e.target.innerText)}
                   >
                     T-Shirts
                   </AccordionPanel>
                   <AccordionPanel
                     pb={2}
                     cursor="pointer"
-                    value={category}
-                    onClick={FilterByCategory}
+                    onClick={(e) => FilterByCategory(e.target.innerText)}
                   >
                     Formal Shirts
                   </AccordionPanel>
                   <AccordionPanel
                     pb={2}
                     cursor="pointer"
-                    value={category}
-                    onClick={FilterByCategory}
+                    onClick={(e) => FilterByCategory(e.target.innerText)}
                   >
                     Formal Shoes
                   </AccordionPanel>

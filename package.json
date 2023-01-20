@@ -14,6 +14,7 @@
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "axios": "^1.2.3",
+    "better-react-carousel": "^1.1.1",
     "firebase": "^9.16.0",
     "framer-motion": "^8.4.6",
     "react": "^18.2.0",
