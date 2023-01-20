@@ -47,7 +47,7 @@ const Login = () => {
         </Card>
         <Box>
           <Floating_Input_Lebel />
-        </Box>
+        </Box> 
       </Stack>
     </Container>
   );
