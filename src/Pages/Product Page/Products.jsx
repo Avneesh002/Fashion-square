@@ -15,20 +15,25 @@ import {
 } from "@chakra-ui/react";
 
 import { AddIcon, MinusIcon } from "@chakra-ui/icons";
+import { useDispatch, useSelector } from "react-redux";
+import { getProducts } from "../../Redux/Product/Product.Action";
+import { Link } from "react-router-dom";
 
 const Products = () => {
-  const [products, setProducts] = useState([]);
+  // const [products, setProducts] = useState([]);
+  const dispatch = useDispatch();
+  const products = useSelector((store) => store.products);
 
-  const getProducts = async () => {
-    try {
-      let response = await axios.get("http://localhost:3000/products");
+  // const getProducts = async () => {
+  //   try {
+  //     let response = await axios.get("http://localhost:3000/products");
 
-      let data = response.data;
-      setProducts(data);
-    } catch (err) {
-      alert(err);
-    }
-  };
+  //     let data = response.data;
+  //     setProducts(data);
+  //   } catch (err) {
+  //     alert(err);
+  //   }
+  // };
 
   const FilterByCategory = async (category) => {
     try {
@@ -37,7 +42,7 @@ const Products = () => {
       let data = response.data;
 
       let filterData = data.filter((item) => item.category.type === category);
-      setProducts(filterData);
+      // setProducts(filterData);
     } catch (err) {
       alert(err);
     }
@@ -51,7 +56,7 @@ const Products = () => {
 
       let filterData = data.sort((a, b) => a.price - b.price);
 
-      setProducts(filterData);
+      // setProducts(filterData);
     } catch (err) {
       alert(err);
     }
@@ -64,14 +69,14 @@ const Products = () => {
 
       let filterData = data.sort((a, b) => b.price - a.price);
 
-      setProducts(filterData);
+      // setProducts(filterData);
     } catch (err) {
       alert(err);
     }
   };
 
   useEffect(() => {
-    getProducts();
+    dispatch(getProducts());
   }, []);
 
   return (
@@ -329,9 +334,8 @@ const Products = () => {
           </Stack>
         </div>
         <div className={styles.allproducts}>
-          {products.map((card) => (
-            <SingleProduct key={card.id} {...card} />
-          ))}
+          {products.data &&
+            products.data.map((card) => <SingleProduct key={card.id} {...card} />)}
         </div>
       </div>
     </div>

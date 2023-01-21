@@ -207,6 +207,11 @@ const Navbar = () => {
                 <a href="#">HOME</a>
               </li>
               <li className="hover-effect">
+                <Link to={"/cart"}>
+                  <a href="#">CART</a>
+                </Link>
+              </li>
+              <li className="hover-effect">
                 <a style={{ color: "red", fontWeigth: "bold" }} href="#">
                   OFFERS
                 </a>
