@@ -12,11 +12,12 @@ import {
   PinInput,
   PinInputField,
 } from "@chakra-ui/react";
-import { useState, useContext } from "react";
+import { useState } from "react";
 import { RecaptchaVerifier, signInWithPhoneNumber } from "firebase/auth";
 import { auth } from "../Pages/Signup_Login/FireBase";
 import { useNavigate } from "react-router-dom";
-import { AuthContext } from "../Redux/AuthContext";
+import { useDispatch } from "react-redux";
+import { login } from "../Redux/Auth/Auth.action";
 // import { async } from "@firebase/util";
 
 const activeLabelStyles = {
@@ -61,8 +62,9 @@ export default function Floating_Input_Lebel() {
   const [loading, setisLoading] = useState(false);
   const [flag, setFlag] = useState(false);
 
+  const dispatch = useDispatch();
+
   const navigate = useNavigate();
-  const { changeAuthStatus } = useContext(AuthContext);
 
   function setUpRecaptha() {
     if (!window.recaptchaVerifier) {
@@ -90,7 +92,7 @@ export default function Floating_Input_Lebel() {
     signInWithPhoneNumber(auth, phoneNumber, appVerifier)
       .then((confirmationResult) => {
         window.confirmationResult = confirmationResult;
-        console.log(confirmationResult);
+        console.log("getOtp", confirmationResult);
         setFlag(true);
         setisLoading(false);
         // setResult(confirmationResult);
@@ -107,10 +109,13 @@ export default function Floating_Input_Lebel() {
     window.confirmationResult
       .confirm(otp)
       .then(async (res) => {
-        console.log(res);
+        console.log("veryfyotp", res);
+        console.log("uid",res.user.uid)
+        console.log("uid",res.user.displayName)
+        console.log("uid",res.user.photoURL)
+        dispatch(login(res.user.accessToken));
         setisLoading(false);
         setUser(res.operationType);
-        changeAuthStatus();
         if (res.operationType === "signIn") {
           return navigate("/");
         }
@@ -201,9 +206,7 @@ export default function Floating_Input_Lebel() {
 
         <Text>{error}</Text>
         <Text>{user}</Text>
-        {
-          loading ? <Text >Loading...</Text> :null
-        }
+        {loading ? <Text>Loading...</Text> : null}
       </Box>
     </ChakraProvider>
   );

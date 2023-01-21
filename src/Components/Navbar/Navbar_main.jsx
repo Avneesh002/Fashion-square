@@ -4,8 +4,10 @@ import logo from "../../assets/Fashion-logo.png";
 import { BsFillPencilFill } from "react-icons/bs";
 import { AiOutlineSearch } from "react-icons/ai";
 import { HiShoppingCart } from "react-icons/hi";
-import { BsPersonFill } from "react-icons/bs";
+// import { BsPersonFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
+// import { Button } from "@chakra-ui/react";
+import { User } from "../../Pages/Signup_Login/User";
 
 const Navbar = () => {
   return (
@@ -207,11 +209,6 @@ const Navbar = () => {
                 <a href="#">HOME</a>
               </li>
               <li className="hover-effect">
-                <Link to={"/cart"}>
-                  <a href="#">CART</a>
-                </Link>
-              </li>
-              <li className="hover-effect">
                 <a style={{ color: "red", fontWeigth: "bold" }} href="#">
                   OFFERS
                 </a>
@@ -232,13 +229,16 @@ const Navbar = () => {
               </span>
 
               <span className="icon-div">
-                <HiShoppingCart className="header-icon" />
-                <p className="icon-name">CART</p>
+                <Link to="/cart" >
+                  <HiShoppingCart className="header-icon" />
+                  <p className="icon-name">CART</p>
+                </Link>
               </span>
 
               <div className="icon-div">
-                <BsPersonFill className="header-icon" />
-                <div className="main-menu">
+                <User />
+                {/* <BsPersonFill className="header-icon" /> */}
+                {/* <div className="main-menu">
                   <ul>
                     <li className="icon-name hover-effect ">
                       <a href="#">PROFILE</a>
@@ -272,7 +272,7 @@ const Navbar = () => {
                       </div>
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
