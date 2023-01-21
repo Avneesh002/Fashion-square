@@ -1,5 +1,6 @@
 import { Box, Flex } from '@chakra-ui/react'
 import React from 'react'
+import { User } from '../Signup_Login/User';
 import AdminSidebar from './AdminSidebar'
 import "./Style/navbar.css";
 
@@ -15,7 +16,7 @@ const AdminNavbar = () => {
         Lime Store
       </Box>
       <Box display="flex" gap={5} justifyContent="space-around">
-       Profile
+       <User />
       </Box>
     </Flex>
   )

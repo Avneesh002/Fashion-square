@@ -5,6 +5,7 @@ import { Box, Button, Text } from "@chakra-ui/react";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { getCartItems, getTotal } from "../../Redux/Cart/cart.Action";
+import { TOTAL } from "../../Redux/Cart/cart.ActionType";
 
 const Cart = () => {
   const cartItems = useSelector((store) => store.cartItems);
@@ -15,8 +16,10 @@ const Cart = () => {
   const totalamount = cartItems.totalamount;
 
   useEffect(() => {
-    dispatch(getTotal());
-  }, []);
+    dispatch({
+      type: TOTAL,
+    });
+  }, [data]);
 
   const shipingcharge = 50;
 

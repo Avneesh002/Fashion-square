@@ -9,7 +9,7 @@ const firebaseConfig = {
   apiKey: "AIzaSyD_vwFHLeJlbUDTXvI4C76HPM3tyVLyPD4",
   authDomain: "lime-road-login-otp.firebaseapp.com",
   projectId: "lime-road-login-otp",
-  storageBucket: "lime-road-login-otp.appspot.com",
+  storageBucket: "lime-road-login-otp.appspot.com", 
   messagingSenderId: "489885127316",
   appId: "1:489885127316:web:c2df0225b8647688c71a81",
 };
