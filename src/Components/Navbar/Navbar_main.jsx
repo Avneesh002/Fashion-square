@@ -14,11 +14,11 @@ const Navbar = () => {
     <>
       <header>
         <div className="container">
+        <Link to="/">
           <div className="logo">
-            <Link to="/">
               <img width={180} src={logo} alt="" />
-            </Link>
           </div>
+          </Link>
           <nav>
             <ul>
               <li className="hover-effect">
