@@ -6,7 +6,8 @@ import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 import AuthContextProvider from "./Redux/AuthContext";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
   <AuthContextProvider>
     <BrowserRouter>
       <ChakraProvider>

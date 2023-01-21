@@ -4,7 +4,7 @@ import styles from "../Product Page/Product.module.css";
 import axios from "axios";
 import SingleProduct from "./SingleProduct";
 import Carousel from "better-react-carousel";
-import { Stack, useBreakpointValue } from "@chakra-ui/react";
+import { Stack } from "@chakra-ui/react";
 import {
   Accordion,
   AccordionItem,

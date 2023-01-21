@@ -231,46 +231,44 @@ const Navbar = () => {
                 <p className="icon-name">CART</p>
               </span>
 
-              <Link to="/login">
-              <div className='icon-div'>
-                                    <BsPersonFill className='header-icon'/>
-                                    <div className='main-menu'>
-                                        <ul>
-                                            <li className='icon-name hover-effect '><a href="#">PROFILE</a>
-                                            <div className='sub-menu-wrap'>
-                                        <div className='sub-menu'>
-                                            <div className='user-info'>
-                                                <span>WELCOME!</span>
-                                                <p>To view account details</p>
-                                                <button className='login-btn'>LOGIN</button>
-                                            </div>
-                                            <br />
-                                            <hr />
-                                            <div className='order-board'>
-                                                <span>ORDERS</span>
-                                                <br />
-                                                <span>RETURN REPLACEMENT</span>
-                                                <br />
-                                                <span>LR CREDITS</span>
-                                            </div>
-                                            <br />
-                                            <hr />
-                                            <div className='order-board'>
-                                                <span>CUSTOMER SUPPORT</span>
-                                                <br />
-                                                <span>FAQ & HELP</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                            
-                                            </li>
-                                            
-                                        </ul>
-                                      
-                                    </div>
-                                    
-                                    </div>
-              </Link>
+              <div className="icon-div">
+                <BsPersonFill className="header-icon" />
+                <div className="main-menu">
+                  <ul>
+                    <li className="icon-name hover-effect ">
+                      <a href="#">PROFILE</a>
+                      <div className="sub-menu-wrap">
+                        <div className="sub-menu">
+                          <div className="user-info">
+                            <span>WELCOME!</span>
+                            <p>To view account details</p>
+                            <Link to="/login">
+                              {" "}
+                              <button className="login-btn">LOGIN</button>
+                            </Link>
+                          </div>
+                          <br />
+                          <hr />
+                          <div className="order-board">
+                            <span>ORDERS</span>
+                            <br />
+                            <span>RETURN REPLACEMENT</span>
+                            <br />
+                            <span>LR CREDITS</span>
+                          </div>
+                          <br />
+                          <hr />
+                          <div className="order-board">
+                            <span>CUSTOMER SUPPORT</span>
+                            <br />
+                            <span>FAQ & HELP</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
