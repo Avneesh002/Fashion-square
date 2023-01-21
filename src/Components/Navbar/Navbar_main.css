@@ -18,7 +18,7 @@ header {
   display: flex;
 }
 .logo {
-  width: 20rem;
+  width: 180px;
   display: flex;
   align-items: center;
   padding: 1.2rem 0 0.5rem 0;
@@ -55,7 +55,7 @@ nav > ul > li a {
   left: 0;
   opacity: 0;
   visibility: hidden;
-  transition: 1s;
+  transition: 0.1s;
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   display: flex;
@@ -135,6 +135,7 @@ nav ul li:hover .mega-menu {
   width: 300px;
   opacity: 0;
   transition: 0.5s;
+  z-index: 50;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
