@@ -14,10 +14,10 @@ const Navbar = () => {
     <>
       <header>
         <div className="container">
-        <Link to="/">
-          <div className="logo">
+          <Link to="/">
+            <div className="logo">
               <img width={180} src={logo} alt="" />
-          </div>
+            </div>
           </Link>
           <nav>
             <ul>
@@ -228,15 +228,16 @@ const Navbar = () => {
                 <p className="icon-name">SEARCH</p>
               </span>
 
-              <span className="icon-div">
-                <Link to="/cart" >
+              <Link to="/cart">
+                <span className="icon-div">
                   <HiShoppingCart className="header-icon" />
                   <p className="icon-name">CART</p>
-                </Link>
-              </span>
+                </span>
+              </Link>
 
               <div className="icon-div">
                 <User />
+
                 {/* <BsPersonFill className="header-icon" /> */}
                 {/* <div className="main-menu">
                   <ul>

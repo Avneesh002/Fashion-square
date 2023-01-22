@@ -6,9 +6,14 @@ import Navbar_main from "./Components/Navbar/Navbar_main";
 
 // import Homepage from "./Pages/Homepage/Homepage";
 // import Products from "./Pages/Product Page/Products";
+import { useEffect } from "react";
 import Allroutes from "./Routes/Allroutes";
 
 function App() {
+  useEffect(() => {
+    document.title = "Fashion Square";
+  }, []);
+
   return (
     <div className="App">
       <Navbar_main />

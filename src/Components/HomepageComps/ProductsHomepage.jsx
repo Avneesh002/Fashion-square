@@ -10,7 +10,6 @@ import {
 } from "@chakra-ui/react";
 import axios from "axios";
 import { BsSuitHeart, BsWhatsapp } from "react-icons/bs";
-import { FaHeart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const ProductsHomepage = () => {
@@ -53,7 +52,6 @@ const ProductsHomepage = () => {
 
     setHeart([...heart, +id]);
   };
-  // console.log(heart);
 
   const getData = async () => {
     try {

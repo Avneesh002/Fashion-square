@@ -114,21 +114,17 @@ nav ul li:hover .mega-menu {
   margin-top: 0.3rem;
 }
 
-
-
-
-.main-menu>ul>li{
+.main-menu > ul > li {
   position: relative;
- 
 }
-.main-menu>ul>li a{
+.main-menu > ul > li a {
   list-style: none;
   font-size: 14px;
   color: black;
   text-decoration: none;
 }
 
-.sub-menu-wrap{
+.sub-menu-wrap {
   position: absolute;
   top: 40px;
   right: 0;
@@ -139,26 +135,26 @@ nav ul li:hover .mega-menu {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.sub-menu{
+.sub-menu {
   background-color: #fff;
   padding: 20px;
   margin: 10px;
 }
-.main-menu>ul>li:hover .sub-menu-wrap{
+.main-menu > ul > li:hover .sub-menu-wrap {
   opacity: 1;
 }
 
-.user-info> span{
+.user-info > span {
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 0.1rem;
 }
-.user-info> span + p{
+.user-info > span + p {
   margin-top: 4px;
   font-size: 14px;
 }
 
-.login-btn{
+.login-btn {
   width: 69px;
   padding: 9px;
   border: none;
@@ -167,26 +163,25 @@ nav ul li:hover .mega-menu {
   font-size: 14px;
   margin: 12px 0 0 0;
   cursor: pointer;
-  background: linear-gradient(122.74deg, #CE297E -4.62%, #ED5133 71.55%);
+  background: linear-gradient(122.74deg, #ce297e -4.62%, #ed5133 71.55%);
 }
 
-.login-btn:hover{
+.login-btn:hover {
   cursor: pointer;
 }
-.sub-menu > .user-info hr{
+.sub-menu > .user-info hr {
   border: 0;
   height: 1px;
   width: 100%;
 }
-.order-board{
-  margin-top: 9px
+.order-board {
+  margin-top: 9px;
 }
-.order-board span{
+.order-board span {
   font-size: 12px;
   color: rgb(143, 143, 143);
   letter-spacing: 0.4px;
-  
 }
-.order-board span:hover{
+.order-board span:hover {
   color: rgb(75, 73, 73);
 }

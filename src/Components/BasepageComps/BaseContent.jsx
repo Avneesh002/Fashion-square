@@ -9,7 +9,7 @@ const BaseContent = () => {
     <Stack pt={"25px"} align={"center"} h={"100vh"} bg={"blackAlpha.500"}>
       <Fade bottom>
         <Text color={"white"} fontSize={"38px"} fontWeight={"800"}>
-          <i> Fashion Point</i>
+          <i> Fashion Square</i>
         </Text>
       </Fade>
 
