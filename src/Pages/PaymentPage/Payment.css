@@ -9,10 +9,10 @@ body {
   background-color: #efefee;
 }
 .outer-container {
-  width: 90%;
-  position: relative;
-  left: 60px;
+  width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center;
   margin: auto;
   gap: 5px;
   background-color: #efefee;
