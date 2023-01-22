@@ -10,13 +10,32 @@ import {
   Heading,
   Stack,
 } from "@chakra-ui/react";
-import React from "react";
+import React, { useEffect } from "react";
+import { useSelector } from "react-redux";
+import { useLocation, useNavigate } from "react-router-dom";
 import Floating_Input_Lebel from "../../Components/Floating_Input_Lebel";
 
 const Login = () => {
+  const { data } = useSelector((store) => store.auth);
+
+  const { state } = useLocation();
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (data.isAuth) {
+      //  console.log("login page" ,state )
+      if (state.from) {
+        //  console.log("if inside state.from ",state.from )
+        navigate(state.from, { replace: true });
+      } else {
+        navigate("/");
+      }
+    }
+  }, [data.isAuth]);
+
   return (
     // maxW='full' centerContent
-    <Container maxW="md" mt={6} >
+    <Container maxW="md" mt={6}>
       <Stack maxW={"full"} gap={20} align="stretch">
         <Card
           direction={"row"}
@@ -40,14 +59,12 @@ const Login = () => {
               />
               <Heading fontWeight={"semibold"}>SIGN IN</Heading>
             </HStack>
-            <Text fontSize="xl" >
-              sign in to proceed further
-            </Text>
+            <Text fontSize="xl">sign in to proceed further</Text>
           </CardBody>
         </Card>
         <Box>
           <Floating_Input_Lebel />
-        </Box> 
+        </Box>
       </Stack>
     </Container>
   );

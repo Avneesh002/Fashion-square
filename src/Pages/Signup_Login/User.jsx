@@ -63,6 +63,7 @@ export const User = () => {
 
     onClose();
   };
+
   useEffect(() => {
     if (user !== null) {
       // The user object has basic properties such as display name, email, etc.
@@ -74,13 +75,14 @@ export const User = () => {
         name: displayName,
         profileImg: photoURL,
       });
+
       // The user's ID, unique to the Firebase project. Do NOT use
       // this value to authenticate with your backend server, if
       // you have one. Use User.getToken() instead.
       // const uid = user.uid;
       // console.log("user", displayName, email, photoURL, emailVerified, uid);
     }
-  }, []);
+  }, [onOpen]);
 
   return (
     <>
@@ -97,10 +99,10 @@ export const User = () => {
             <>
               <MenuItem>
                 <HStack bg={"black"} p="5px" alignItems={"center"} w="full">
-                  <Avatar size={"md"} src={userName.profileImg} />
+                  <Avatar size={"md"} src={userName && userName.profileImg} />
                   <Spacer />
                   <Text as={"h2"} color="white">
-                    {userName.name}
+                    {userName && userName.name}
                   </Text>
                 </HStack>
               </MenuItem>

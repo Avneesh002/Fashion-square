@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Payment.css";
 import person from "../../assets/person.png";
 import { Link, Navigate } from "react-router-dom";
+import { CartContext } from "../cart/context/CartContext";
+import Items from "../cart/pages/Items";
+import { Box, Flex, Image, Stack, Text, VStack } from "@chakra-ui/react";
 
 const PaymentPage = () => {
+  const { data, totalProducts, totalamount } = useContext(CartContext);
   return (
     <>
       <div className="outer-container">
@@ -83,16 +87,44 @@ const PaymentPage = () => {
 
           {/* Cart Section Starts */}
 
-          <div className="cart-section">
-            <h3>Cart Items (1) </h3>
-            <div className="added-product">
-              <div className="image-div">
-                <img
-                  src="https://img3.junaroad.com/uiproducts/18178878/zoom_0-1639821727.jpg"
-                  alt=""
-                />
-              </div>
+          {/* <div className="cart-section"> */}
+          <Box
+            p={"10px"}
+            // border={"2px solid red"}
+            display={"flex"}
+            flexDir={"column"}
+            gap={"10px"}
+          >
+            <h3>Cart Items {data.length} </h3>
 
+            <Box height={"300px"} overflowX={"scroll"}>
+              {data.map((el) => (
+                <Flex
+                  p={"10px"}
+                  key={el.id}
+                  align={"center"}
+                  justifyContent={"space-around"}
+                  width={"100%"}
+                  // border={"1px solid"}
+                  boxShadow="rgba(0, 0, 0, 0.16) 0px 1px 4px"
+                  // boxShadow={"3px 2px 1px 1px"}
+                >
+                  <Image w={"100px"} src={el.img} alt="" />
+                  <Text as="h1">{el.title}</Text>
+                  <Text as="h1">{el.Quantity}</Text>
+                  <Text as="h1">{el.price}</Text>
+                </Flex>
+                // <Items key={el.id + Math.random()} {...el} />
+              ))}
+            </Box>
+            {/* <div className="added-product">
+              <div className="image-div">
+              <img
+              src="https://img3.junaroad.com/uiproducts/18178878/zoom_0-1639821727.jpg"
+              alt=""
+              />
+              </div>
+              
               <div className="product-details">
                 <span>Pack Of 2 Solid Polo T-Shirt</span>
                 <br />
@@ -100,9 +132,12 @@ const PaymentPage = () => {
                 <br />
                 <span>Size:- L</span>
               </div>
-            </div>
-            <button className="edit-btn">Edit Cart</button>
-          </div>
+            </div> */}
+            <Link to={"/cart"}>
+              <button className="edit-btn">Edit Cart</button>
+            </Link>
+            {/* </div> */}
+          </Box>
         </div>
         <div className="inner-right-container">
           <div className="offer-tag">
@@ -173,7 +208,7 @@ const PaymentPage = () => {
                   <div className="amount-table">
                     <span>Total Price</span>
                     <span>
-                      <b>₹799</b>
+                      <b>₹{totalamount}</b>
                     </span>
                   </div>
 
@@ -187,7 +222,7 @@ const PaymentPage = () => {
                   <div className="amount-table">
                     <span>Amount Payable</span>
                     <span>
-                      <b>₹799</b>
+                      <b>₹{totalamount}</b>
                     </span>
                   </div>
                 </div>
