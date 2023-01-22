@@ -5,13 +5,10 @@ import { Card, CardHeader, CardBody, CardFooter, Image, Stack, Heading, Text, Bu
 // import axios from "axios"
 import {BsWhatsapp} from "react-icons/bs"
 import {TbJewishStar} from "react-icons/tb"
-// import wishlist from "../Images/heart.png"
+import wishlist from "../Images/heart.png"
 import { useContext } from "react";
 
-import { CartContext } from "./cart/context/CartContext";
-
-
-// import { CartContext } from "../";
+import { CartContext } from "../context/CartContext";
 // import { addtoCart } from "../redux/cart.action";
 
 
@@ -19,7 +16,7 @@ import { CartContext } from "./cart/context/CartContext";
 function getdata(id) {
   return fetch(`https://fashionsquare-database.vercel.app/products/${id}`).then((res) => res.json());
 }
-function SingleProductPage() {
+function SingleProduct() {
   const [data, setData] = useState({});
   const [loading, setLoading] = useState(false);
   const[click,setClick]=useState(true)
@@ -146,4 +143,4 @@ const {removeProduct,increment,decrement}=useContext(CartContext)
 
   );
 }
-export default SingleProductPage;
+export default SingleProduct;
