@@ -8,6 +8,7 @@ import Basepage from "../Pages/Basepage";
 // import PrivateRoute from "./PrivateRoute";
 import SingleProductPage from "../Pages/SingleProductPage";
 import Cart from "../Pages/Carts/CartPage";
+import PaymentPage from "../Pages/PaymentPage/PaymentPage";
 
 const Allroutes = () => {
   return (
@@ -39,6 +40,7 @@ const Allroutes = () => {
           //</PrivateRoute>
         }
       ></Route>
+      <Route path="/payment" element={<PaymentPage />}></Route>
     </Routes>
   );
 };
