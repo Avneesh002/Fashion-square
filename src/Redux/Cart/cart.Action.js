@@ -20,7 +20,7 @@ import {
 export const getCartItems = () => async (disptach) => {
   disptach({ type: GET_CART_ITEMS_LOADING });
   try {
-    let res = axios.get("http://localhost:3000/cartItems");
+    let res = axios.get("https://fashionsquare-database.vercel.app/cartItems");
     disptach({ type: GET_CART_ITEMS_SUCCESS, payload: res.data });
   } catch (error) {
     disptach({ type: GET_CART_ITEMS_ERROR });
@@ -31,9 +31,12 @@ export const addItemToCart = (cartInfo) => async (dispatch) => {
   console.log("cartreduceraction", cartInfo);
   dispatch({ type: ADD_ITEM_TO_CART_LOADING });
   try {
-    let res = await axios.post("http://localhost:3000/cartItems", {
-      ...cartInfo,
-    });
+    let res = await axios.post(
+      "https://fashionsquare-database.vercel.app/cartItems",
+      {
+        ...cartInfo,
+      }
+    );
     let data = res.data;
     dispatch({ type: ADD_ITEM_TO_CART_SUCCESS, payload: data });
   } catch (error) {
@@ -44,7 +47,9 @@ export const addItemToCart = (cartInfo) => async (dispatch) => {
 export const removeItemFromCart = (cartId) => async (dispatch) => {
   dispatch({ type: REMOVE_CART_ITEMS_LOADING });
   try {
-    let res = await axios.delete(`http://localhost:3000/cartItems/${cartId}`);
+    let res = await axios.delete(
+      `https://fashionsquare-database.vercel.app/cartItems/${cartId}`
+    );
     dispatch({ type: REMOVE_CART_ITEMS_SUCCESS, payload: { id: cartId } });
   } catch (error) {
     dispatch({ type: REMOVE_CART_ITEMS_ERROR });
@@ -54,9 +59,12 @@ export const removeItemFromCart = (cartId) => async (dispatch) => {
 export const updateCartItem = (cartId, update) => async (dispatch) => {
   dispatch({ type: UPDATE_CART_ITEMS_LOADING });
   try {
-    let res = await axios.patch(`http://localhost:3000/cartItems/${cartId}`, {
-      ...update,
-    });
+    let res = await axios.patch(
+      `https://fashionsquare-database.vercel.app/cartItems/${cartId}`,
+      {
+        ...update,
+      }
+    );
     dispatch({ type: UPDATE_CART_ITEMS_SUCCESS, payload: res.data });
   } catch (error) {
     dispatch({ type: UPDATE_CART_ITEMS_ERROR });

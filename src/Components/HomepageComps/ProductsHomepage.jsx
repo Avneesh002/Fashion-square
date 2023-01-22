@@ -29,7 +29,7 @@ const ProductsHomepage = () => {
           let newLikes = likes - 1;
 
           let d = await axios.patch(
-            `http://localhost:3000/homepageProducts/${id}`,
+            `https://fashionsquare-database.vercel.app/homepageProducts/${id}`,
             {
               fs10: newLikes,
             }
@@ -43,9 +43,12 @@ const ProductsHomepage = () => {
     }
 
     let newLikes = likes + 1;
-    let d = await axios.patch(`http://localhost:3000/homepageProducts/${id}`, {
-      fs10: newLikes,
-    });
+    let d = await axios.patch(
+      `https://fashionsquare-database.vercel.app/homepageProducts/${id}`,
+      {
+        fs10: newLikes,
+      }
+    );
     setLiked(!liked);
 
     setHeart([...heart, +id]);
@@ -55,7 +58,7 @@ const ProductsHomepage = () => {
   const getData = async () => {
     try {
       await axios
-        .get(`http://localhost:3000/homepageProducts`)
+        .get(`https://fashionsquare-database.vercel.app/homepageProducts`)
         .then((res) => setData(res.data));
     } catch (error) {
       console.log(error);
