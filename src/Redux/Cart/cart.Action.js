@@ -64,11 +64,11 @@ export const updateCartItem = (cartId, update) => async (dispatch) => {
 };
 
 //kallol
-export const getTotal = () => (dispatch) => {
-  dispatch({
-    type: TOTAL,
-  });
-};
+// export const getTotal = () => (dispatch) => {
+//   dispatch({
+//     type: TOTAL,
+//   });
+// };
 
 export const increment = (id) => (dispatch) => {
   dispatch({
