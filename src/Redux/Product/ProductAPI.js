@@ -1,7 +1,8 @@
-
 import axios from "axios";
 
 export const getProductsAPI = async () => {
-  let response = await axios.get(`http://localhost:3000/products`);
+  let response = await axios.get(
+    `https://fashionsquare-database.vercel.app/products`
+  );
   return response.data;
 };

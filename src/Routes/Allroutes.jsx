@@ -5,7 +5,7 @@ import Homepage from "../Pages/Homepage/Homepage";
 import Products from "../Pages/Product Page/Products";
 import Login from "./../Pages/Signup_Login/Login";
 import Basepage from "../Pages/Basepage";
-import PrivateRoute from "./PrivateRoute";
+// import PrivateRoute from "./PrivateRoute";
 import SingleProductPage from "../Pages/SingleProductPage";
 import Cart from "../Pages/Carts/CartPage";
 
@@ -18,25 +18,25 @@ const Allroutes = () => {
       <Route
         path="/products"
         element={
-          <PrivateRoute>
-            <Products />
-          </PrivateRoute>
+          // <PrivateRoute>
+          <Products />
+          // </PrivateRoute>
         }
       ></Route>
       <Route
         path="/products/:id"
         element={
-          <PrivateRoute>
-            <SingleProductPage />
-          </PrivateRoute>
+          //<PrivateRoute>
+          <SingleProductPage />
+          //</PrivateRoute>
         }
       ></Route>
       <Route
         path="/cart"
         element={
-          <PrivateRoute>
-            <Cart />
-          </PrivateRoute>
+          //<PrivateRoute>
+          <Cart />
+          //</PrivateRoute>
         }
       ></Route>
     </Routes>

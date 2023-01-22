@@ -1,5 +1,5 @@
 import React from "react";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import styles from "../Product Page/Product.module.css";
 import axios from "axios";
 import SingleProduct from "./SingleProduct";
@@ -16,33 +16,25 @@ import {
 
 import { AddIcon, MinusIcon } from "@chakra-ui/icons";
 import { useDispatch, useSelector } from "react-redux";
-import { getProducts } from "../../Redux/Product/Product.Action";
-import { Link } from "react-router-dom";
+import { getProducts, filterProduct } from "../../Redux/Product/Product.Action";
+
+// import { Link } from "react-router-dom";
 
 const Products = () => {
-  // const [products, setProducts] = useState([]);
   const dispatch = useDispatch();
-  const products = useSelector((store) => store.products);
-
-  // const getProducts = async () => {
-  //   try {
-  //     let response = await axios.get("http://localhost:3000/products");
-
-  //     let data = response.data;
-  //     setProducts(data);
-  //   } catch (err) {
-  //     alert(err);
-  //   }
-  // };
+  const { data } = useSelector((store) => store.products);
 
   const FilterByCategory = async (category) => {
     try {
-      let response = await axios.get("http://localhost:3000/products");
+      let response = await axios.get(
+        "https://fashionsquare-database.vercel.app/products"
+      );
 
       let data = response.data;
 
       let filterData = data.filter((item) => item.category.type === category);
-      // setProducts(filterData);
+
+      dispatch(filterProduct(filterData));
     } catch (err) {
       alert(err);
     }
@@ -50,26 +42,28 @@ const Products = () => {
 
   const SortingLH = async () => {
     try {
-      let response = await axios.get("http://localhost:3000/products");
+      let response = await axios.get(
+        "https://fashionsquare-database.vercel.app/products"
+      );
 
       let data = response.data;
 
       let filterData = data.sort((a, b) => a.price - b.price);
-
-      // setProducts(filterData);
+      dispatch(filterProduct(filterData));
     } catch (err) {
       alert(err);
     }
   };
   const SortingHL = async () => {
     try {
-      let response = await axios.get("http://localhost:3000/products");
+      let response = await axios.get(
+        "https://fashionsquare-database.vercel.app/products"
+      );
 
       let data = response.data;
 
       let filterData = data.sort((a, b) => b.price - a.price);
-
-      // setProducts(filterData);
+      dispatch(filterProduct(filterData));
     } catch (err) {
       alert(err);
     }
@@ -334,8 +328,8 @@ const Products = () => {
           </Stack>
         </div>
         <div className={styles.allproducts}>
-          {products.data &&
-            products.data.map((card) => <SingleProduct key={card.id} {...card} />)}
+          {data &&
+            data.map((card) => <SingleProduct key={card.id} {...card} />)}
         </div>
       </div>
     </div>

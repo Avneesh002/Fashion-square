@@ -26,8 +26,8 @@ import { useDispatch } from "react-redux";
 // import { CartContext } from "../context/CartContext";
 
 function getdata(id) {
-  return fetch(`http://localhost:3000/products/${id}`).then((res) =>
-    res.json()
+  return fetch(`https://fashionsquare-database.vercel.app/products/${id}`).then(
+    (res) => res.json()
   );
 }
 
@@ -37,9 +37,7 @@ function SingleProductPage() {
   const [click, setClick] = useState(true);
   const params = useParams();
 
-const dispatch=useDispatch();
-
-
+  const dispatch = useDispatch();
 
   useEffect(() => {
     setLoading(true);
@@ -49,10 +47,9 @@ const dispatch=useDispatch();
     });
   }, []);
 
-
-  const handleAddtoCart=(data)=>{
+  const handleAddtoCart = (data) => {
     dispatch(addItemToCart(data));
-  }
+  };
 
   // console.log(data)
 
@@ -126,7 +123,7 @@ const dispatch=useDispatch();
           >
             {click ? (
               <Button
-                onClick={()=>handleAddtoCart(data)}
+                onClick={() => handleAddtoCart(data)}
                 variant="solid"
                 width="81%"
                 colorScheme="blue"
