@@ -5,8 +5,9 @@ Fashion Square is a clone of a website called limeroad. It is an e-commerce webs
 
 ## Demo Login Credentials
 **Use this Credentials to Login as a user.**
- `Email:-eve.holt@reqres.in`
- `Password:-sat1234`
+ `Phone:- 9123456780`
+ `OTP:-123456`
+ #### Or you can your active mobile No. without Country Code (By default Country IND) ####
 # Tech Stacks Used
 - React JS
 - Redux
@@ -16,10 +17,5 @@ Fashion Square is a clone of a website called limeroad. It is an e-commerce webs
 - Javascript
 - CSS
 - HTML
-
-
-
-<h1>Tech Stack</h1>
-HTML, CSS, Javascript, ReactJS, Chakra-UI, Axios, Firebase, Redux
 
 <h4>A Collaborative Project built by 5 members developed in 5 days. </h4>
