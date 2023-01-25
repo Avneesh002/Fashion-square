@@ -1,13 +1,14 @@
 <h1>Fashion Square</h1>
 Fashion Square is a clone of a website called limeroad. It is an e-commerce website where user can buy fashion products. 
 
-# [Netlify Link](https://skinsotre-clone-by-sattan.netlify.app/)
+# [Vercel Deployed Link](https://fashi0n-square.netlify.app/)
 
 ## Demo Login Credentials
 **Use this Credentials to Login as a user.**
  `Phone:- 9123456780`
  `OTP:-123456`
- #### Or you can your active mobile No. without Country Code (By default Country IND) ####
+ <h4> Or you can your use active mobile No. without Country Code (By default Country IND) <h4>
+ 
 # Tech Stacks Used
 - React JS
 - Redux
