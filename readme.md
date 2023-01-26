@@ -1,6 +1,28 @@
 <h1>Fashion Square</h1>
 Fashion Square is a clone of a website called limeroad. It is an e-commerce website where user can buy fashion products. 
 
+# [Vercel Deployed Link](https://fashi0n-square.netlify.app/)
+
+## Demo Login Credentials
+**Use this Credentials to Login as a user.**
+ `Phone:- 9123456780`
+ `OTP:-123456`
+ <h4> Or you can your use active mobile No. without Country Code (By default Country IND) <h4>
+ 
+# Tech Stacks Used
+- React JS
+- Redux
+- Axios
+- Firebase
+- Chakra UI
+- Javascript
+- CSS
+- HTML
+
+<h4>A Collaborative Project built by 5 members developed in 5 days. </h4>
+
+# Overview
+
 # Home Page
 
 ![homepage](https://user-images.githubusercontent.com/101358022/214774827-562c77a8-7cde-46a5-abc2-16283c9ddc33.png)
@@ -25,27 +47,6 @@ Fashion Square is a clone of a website called limeroad. It is an e-commerce webs
 # Payment Page
 
 ![paymentpage](https://user-images.githubusercontent.com/101358022/214775892-292995d7-6946-4455-920f-e7748cfad971.png)
-
-
-# [Vercel Deployed Link](https://fashi0n-square.netlify.app/)
-
-## Demo Login Credentials
-**Use this Credentials to Login as a user.**
- `Phone:- 9123456780`
- `OTP:-123456`
- <h4> Or you can your use active mobile No. without Country Code (By default Country IND) <h4>
- 
-# Tech Stacks Used
-- React JS
-- Redux
-- Axios
-- Firebase
-- Chakra UI
-- Javascript
-- CSS
-- HTML
-
-<h4>A Collaborative Project built by 5 members developed in 5 days. </h4>
 
 
 
