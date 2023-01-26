@@ -3,6 +3,8 @@ Fashion Square is a clone of a website called limeroad. It is an e-commerce webs
 
 # Home Page
 
+![homepage](https://user-images.githubusercontent.com/101358022/214774827-562c77a8-7cde-46a5-abc2-16283c9ddc33.png)
+
 # [Vercel Deployed Link](https://fashi0n-square.netlify.app/)
 
 ## Demo Login Credentials
@@ -22,5 +24,6 @@ Fashion Square is a clone of a website called limeroad. It is an e-commerce webs
 - HTML
 
 <h4>A Collaborative Project built by 5 members developed in 5 days. </h4>
+
 
 
