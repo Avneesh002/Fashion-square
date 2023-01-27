@@ -2,7 +2,7 @@
 
 Fashion Square is a clone of a website called limeroad. It is an e-commerce website where user can buy fashion products. 
 
-# [Vercel Deployed Link](https://fashi0n-square.netlify.app/)
+# [Netlify Deployed Link](https://fashi0n-square.netlify.app/)
 
 ## Demo Login Credentials
 **Use this Credentials to Login as a user.**
