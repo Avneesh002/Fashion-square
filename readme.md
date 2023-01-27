@@ -14,6 +14,7 @@ Fashion Square is a clone of a website called limeroad. It is an e-commerce webs
 - React JS
 - Redux
 - Axios
+- Deployed API ( On Vercel )
 - Firebase
 - Chakra UI
 - Javascript
