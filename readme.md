@@ -26,7 +26,7 @@ Fashion Square is a clone of a website called limeroad. It is an e-commerce webs
  * Rahul Dudka
  * Kirtiraj Ingale
  * Satan Sharma
- * kallol sarkar
+ * Kallol Sarkar
  
 # Overview
 
