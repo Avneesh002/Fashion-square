@@ -1,4 +1,4 @@
-<h1>Fashion Square</h1>
+<h1>Fashion Square ( Clone of Lime Road Shopping Website )</h1>
 
 Fashion Square is a clone of a website called limeroad. It is an e-commerce website where user can buy fashion products. 
 
@@ -10,6 +10,7 @@ Fashion Square is a clone of a website called limeroad. It is an e-commerce webs
 
  `Phone:- 9123456780`
  `OTP:-123456`
+ 
  <h4> Or you can your use active mobile No. without Country Code (By default Country IND) <h4>
  
 # Tech Stacks Used
