@@ -20,7 +20,6 @@ Fashion Square is a clone of a website called limeroad. It is an e-commerce webs
 - Deployed API ( On Vercel )
 - Firebase
 - Chakra UI
-- Javascript
 - CSS
 - HTML
 
