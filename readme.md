@@ -23,7 +23,6 @@ Fashion Square is a clone of a website called limeroad. It is an e-commerce webs
 - CSS
 - HTML
 
-
 ## Collaborative Project built by 5 developers in 5 days
 
  * Avneesh Grover
