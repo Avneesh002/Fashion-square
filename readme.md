@@ -14,14 +14,14 @@ Fashion Square is an e-commerce website where user can buy fashion products.
  <h4> Or you can your use active mobile No. without Country Code (By default Country IND) <h4>
  
 ## Tech Stacks Used
+
 - React JS
 - Redux
 - Axios
 - Deployed API ( On Vercel )
 - Firebase
 - Chakra UI
-- CSS
-- HTML
+- HTML & CSS
 
 ## Collaborative Project built by 5 developers in 5 days
 
