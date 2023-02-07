@@ -2,7 +2,7 @@
 
 Fashion Square is an e-commerce website where user can buy fashion products. 
 
-## Netlify Deployed Link:- https://fashi0n-square.netlify.app/
+## [Netlify Deployed Link](https://fashi0n-square.netlify.app/) 
 
 ## Demo Login Credentials
 
