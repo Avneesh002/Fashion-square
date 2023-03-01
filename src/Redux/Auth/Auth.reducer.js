@@ -7,12 +7,6 @@ import {
 } from "./Auth.actinType";
 
 let token = localStorage.getItem("token");
-// Note: Do not update/change the initial state
-
-// loading: false,
-// error: false,
-// isLoggedIn: ,
-// token: token || "",
 
 export const authInitalState = {
   loading: false,
