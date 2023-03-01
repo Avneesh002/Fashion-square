@@ -22,23 +22,20 @@ body {
   width: 40%;
   height: 96vh;
   padding: 15px;
-  Overflow-y:scroll
+  overflow-y: scroll;
 }
 .detail-form-section {
   height: 60vh;
-  /* border: 1px solid blue; */
 }
 .label span {
   font-size: 18px;
 }
 .details-form {
-  /* border: 1px solid yellowgreen; */
   padding: 5px;
   background-color: #ffffff;
   border-radius: 8px;
   height: 50vh;
   margin-top: 12px;
-  
 }
 .top-form {
   width: 90%;
@@ -55,7 +52,7 @@ body {
   border-top: none;
   border-left: none;
   border-right: none;
- border-bottom: 1px solid lightgray
+  border-bottom: 1px solid lightgray;
 }
 
 .personal-details {
@@ -78,9 +75,9 @@ body {
   font-size: 16px;
   letter-spacing: 0.8px;
 }
-.city-state{
-    position: relative;
-    right: 0;
+.city-state {
+  position: relative;
+  right: 0;
 }
 .city-state input {
   display: flex;
@@ -115,36 +112,35 @@ body {
 
 /****************************** Cart Section Starts **********************************/
 
-.cart-section{
-    padding: 10px;
-    background-color: #FFFFFF;
+.cart-section {
+  padding: 10px;
+  background-color: #ffffff;
 }
-.image-div img{
-    width: 140px;
+.image-div img {
+  width: 140px;
 }
-.added-product{
-    display: flex;
-    gap: 50px;
-    margin-top: 20px;
+.added-product {
+  display: flex;
+  gap: 50px;
+  margin-top: 20px;
 }
 
-.edit-btn{
-    width: 100%;
-    height: 40px;
-    background-color: #99CC33;
-    border: none;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 600;
+.edit-btn {
+  width: 100%;
+  height: 40px;
+  background-color: #99cc33;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
 }
-.edit-btn:hover{
-    background-color: #4caf50;
-    color: #fff;
-    cursor: pointer;
-
+.edit-btn:hover {
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
 }
-.product-details span{
-    font-size: 14px;
+.product-details span {
+  font-size: 14px;
 }
 
 /****************************** Right Container Section Starts **********************************/
@@ -153,114 +149,111 @@ body {
   width: 50%;
   height: 95vh;
   padding: 30px;
-  background-color: #FFFFFF;
-  Overflow-y:scroll
+  background-color: #ffffff;
+  overflow-y: scroll;
 }
 
 /****************************** offer-tag Section starts **********************************/
-.offer-tag{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    background-color: #EFEFEE;
-    padding: 10px 0 10px 0;
-    border-radius: 8px;
+.offer-tag {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #efefee;
+  padding: 10px 0 10px 0;
+  border-radius: 8px;
 }
-.tag-details h4{
-    font-size: 14px;
+.tag-details h4 {
+  font-size: 14px;
 }
-.tag-details span{
-    font-size: 12px
+.tag-details span {
+  font-size: 12px;
 }
 
 /****************************** Payment Card Section starts **********************************/
 
-
-.payment-card{
-    display: flex;
-    gap: 10px;
+.payment-card {
+  display: flex;
+  gap: 10px;
 }
-.cod{
-    display: flex;
-    align-items: center;
-    height: 50px;
-    margin-top: 30px;
-    border-left: 6px solid #99CC33;
+.cod {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin-top: 30px;
+  border-left: 6px solid #99cc33;
 }
-.cod span{
-    margin-left: 20px;
-    font-size: 16px;
-    font-weight: 500;
+.cod span {
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: 500;
 }
-.cod span:hover{
-    cursor: pointer;
+.cod span:hover {
+  cursor: pointer;
 }
-.left-card-section{
-    width: 50%;
-    background-color: #F4F4F5;
-    margin: 0;
+.left-card-section {
+  width: 50%;
+  background-color: #f4f4f5;
+  margin: 0;
 }
-.cards{
-    padding: 10px;
+.cards {
+  padding: 10px;
 }
-.single-card{
-    height: 70px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    border-bottom: 3px solid white;
+.single-card {
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border-bottom: 3px solid white;
 }
-.single-card:hover{
-    background-color: #e0e0e0;
-    cursor: pointer;
+.single-card:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
 }
-.single-card p{
-    position: relative;
-    top: 10px;
-    text-align: center;
+.single-card p {
+  position: relative;
+  top: 10px;
+  text-align: center;
 }
-.single-card p:nth-child(2){
-    color: green;
-    font-size: 12px;
-}
-
-
-.right-card-detail-section{
-    width: 70%;
-    padding-top: 50px;
-    
-}
-.pay-now{
-    width: 90%;
-    margin: auto;
-    padding: 30px;
-    background-color: #F4F4F5;
-}
-.pay-now p{
-    font-size: 16px;
-    font-weight: 600;
+.single-card p:nth-child(2) {
+  color: green;
+  font-size: 12px;
 }
 
-.amount-table{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+.right-card-detail-section {
+  width: 70%;
+  padding-top: 50px;
+}
+.pay-now {
+  width: 90%;
+  margin: auto;
+  padding: 30px;
+  background-color: #f4f4f5;
+}
+.pay-now p {
+  font-size: 16px;
+  font-weight: 600;
 }
 
-.order-btn{
-    width: 90%;
-    display: block;
-    margin: auto;
-    background-color: #99CC33;
-    border: none;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 600;
-    padding: 12px;
-    border-radius: 3px;
+.amount-table {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }
-.order-btn:hover{
-    background-color: #4caf50;
-    color: #fff;
-    cursor: pointer;
+
+.order-btn {
+  width: 90%;
+  display: block;
+  margin: auto;
+  background-color: #99cc33;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px;
+  border-radius: 3px;
+}
+.order-btn:hover {
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
 }

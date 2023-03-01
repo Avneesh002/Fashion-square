@@ -1,13 +1,11 @@
 import React, { useContext } from "react";
 import "./Payment.css";
-import person from "../../assets/person.png";
-import { Link, Navigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { CartContext } from "../cart/context/CartContext";
-import Items from "../cart/pages/Items";
-import { Box, Flex, Image, Stack, Text, VStack } from "@chakra-ui/react";
+import { Box, Flex, Image, Text } from "@chakra-ui/react";
 
 const PaymentPage = () => {
-  const { data, totalProducts, totalamount } = useContext(CartContext);
+  const { data, totalamount } = useContext(CartContext);
   return (
     <>
       <div className="outer-container">
@@ -105,34 +103,16 @@ const PaymentPage = () => {
                   align={"center"}
                   justifyContent={"space-around"}
                   width={"100%"}
-                  // border={"1px solid"}
                   boxShadow="rgba(0, 0, 0, 0.16) 0px 1px 4px"
-                  // boxShadow={"3px 2px 1px 1px"}
                 >
                   <Image w={"100px"} src={el.img} alt="" />
                   <Text as="h1">{el.title}</Text>
                   <Text as="h1">{el.Quantity}</Text>
                   <Text as="h1">{el.price}</Text>
                 </Flex>
-                // <Items key={el.id + Math.random()} {...el} />
               ))}
             </Box>
-            {/* <div className="added-product">
-              <div className="image-div">
-              <img
-              src="https://img3.junaroad.com/uiproducts/18178878/zoom_0-1639821727.jpg"
-              alt=""
-              />
-              </div>
-              
-              <div className="product-details">
-                <span>Pack Of 2 Solid Polo T-Shirt</span>
-                <br />
-                <span>Quantity:- 1</span>
-                <br />
-                <span>Size:- L</span>
-              </div>
-            </div> */}
+
             <Link to={"/cart"}>
               <button className="edit-btn">Edit Cart</button>
             </Link>
@@ -231,7 +211,6 @@ const PaymentPage = () => {
                 className="order-btn"
                 onClick={() => {
                   alert("Your order Has been confirmed." + "\n" + "Thank You!");
-                  //   <Navigate to="/" />;
                   window.location.href = "/";
                 }}
               >
