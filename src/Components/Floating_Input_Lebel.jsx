@@ -59,7 +59,7 @@ export default function Floating_Input_Lebel() {
   const [otp, setOtp] = useState("");
   const [error, setError] = useState("");
   const [loading, setIsLoading] = useState(false);
-  const [flag, setFlag] = useState(false);
+  const [recivedOtp, setRecivedOtp] = useState(false);
 
   const dispatch = useDispatch();
 
@@ -90,12 +90,11 @@ export default function Floating_Input_Lebel() {
     signInWithPhoneNumber(auth, phoneNumber, appVerifier)
       .then((confirmationResult) => {
         window.confirmationResult = confirmationResult;
-        console.log("getOtp", confirmationResult);
-        setFlag(true);
+        "getOtp", confirmationResult;
+        setRecivedOtp(true);
         setIsLoading(false);
       })
       .catch((error) => {
-        console.log(error);
         setError(error.message);
         setIsLoading(false);
       });
@@ -106,10 +105,6 @@ export default function Floating_Input_Lebel() {
     window.confirmationResult
       .confirm(otp)
       .then(async (res) => {
-        console.log("veryfyotp", res);
-        console.log("uid",res.user.uid)
-        console.log("uid",res.user.displayName)
-        console.log("uid",res.user.photoURL)
         dispatch(login(res.user.accessToken));
         setIsLoading(false);
         setUser(res.operationType);
@@ -120,7 +115,6 @@ export default function Floating_Input_Lebel() {
       .catch((err) => {
         setError(err.message);
         setIsLoading(false);
-        console.log(err);
       });
   }
 
@@ -133,7 +127,7 @@ export default function Floating_Input_Lebel() {
         flexDirection={"column"}
         gap={6}
       >
-        {flag ? (
+        {recivedOtp ? (
           <HStack>
             <PinInput value={otp} onChange={setOtp}>
               <PinInputField />
@@ -161,7 +155,7 @@ export default function Floating_Input_Lebel() {
               placeholder=" "
             />
             <FormLabel>
-              {flag ? "Please type the OTP sent to" : "Mobile Number"}
+              {recivedOtp ? "Please type the OTP sent to" : "Mobile Number"}
             </FormLabel>
             {number.length > 0 && number.length < 10 ? (
               <FormErrorMessage position={"absolute"} right="0">
@@ -171,7 +165,7 @@ export default function Floating_Input_Lebel() {
           </FormControl>
         )}
 
-        {flag ? (
+        {recivedOtp ? (
           <Button
             onClick={onOtpVerify}
             width={"full"}
