@@ -1,4 +1,4 @@
-import { Stack, Text, useBreakpointValue } from "@chakra-ui/react";
+import { Stack } from "@chakra-ui/react";
 import React from "react";
 import BaseContent from "../Components/BasepageComps/BaseContent";
 
