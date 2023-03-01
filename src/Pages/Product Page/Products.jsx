@@ -10,15 +10,12 @@ import {
   AccordionItem,
   AccordionButton,
   AccordionPanel,
-  //   AccordionIcon,
   Box,
 } from "@chakra-ui/react";
 
 import { AddIcon, MinusIcon } from "@chakra-ui/icons";
 import { useDispatch, useSelector } from "react-redux";
 import { getProducts, filterProduct } from "../../Redux/Product/Product.Action";
-
-// import { Link } from "react-router-dom";
 
 const Products = () => {
   const dispatch = useDispatch();
@@ -137,14 +134,6 @@ const Products = () => {
                   >
                     Formal Shoes
                   </AccordionPanel>
-                  {/* <AccordionPanel
-                    pb={2}
-                    cursor="pointer"
-                    value={category}
-                    onClick={FilterByCategory}
-                  >
-                    Discount
-                  </AccordionPanel> */}
                   <AccordionPanel pb={2} cursor="pointer" onClick={SortingHL}>
                     High Price
                   </AccordionPanel>

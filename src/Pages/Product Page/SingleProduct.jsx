@@ -2,9 +2,16 @@ import { NavLink } from "react-router-dom";
 import React from "react";
 import styles from "../Product Page/SingleProduct.module.css";
 
-const SingleProduct = ({id, image, price, before_disc, brand, offer_percent }) => {
+const SingleProduct = ({
+  id,
+  image,
+  price,
+  before_disc,
+  brand,
+  offer_percent,
+}) => {
   return (
-    <NavLink to={`/products/${id}`} >
+    <NavLink to={`/products/${id}`}>
       <div className={styles.singleProductContainer}>
         <div>
           <img src={image[0]} alt="product-image" />
