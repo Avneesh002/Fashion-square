@@ -6,7 +6,6 @@ import {
   Text,
   useBreakpointValue,
   Avatar,
-  Button,
 } from "@chakra-ui/react";
 import axios from "axios";
 import { BsSuitHeart, BsWhatsapp } from "react-icons/bs";
@@ -62,12 +61,6 @@ const ProductsHomepage = () => {
       console.log(error);
     }
   };
-
-  // const handleClick = () => {
-  //   window.location.href = "#";
-  // };
-
-  // console.log(data);
   React.useEffect(() => {
     getData();
   }, [liked]);
@@ -90,7 +83,6 @@ const ProductsHomepage = () => {
               style={{
                 cursor: "pointer",
               }}
-              // onClick={handleClick}
               src={el.img}
               alt=""
             />

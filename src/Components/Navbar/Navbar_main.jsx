@@ -4,9 +4,7 @@ import logo from "../../assets/Fashion-logo.png";
 import { BsFillPencilFill } from "react-icons/bs";
 import { AiOutlineSearch } from "react-icons/ai";
 import { HiShoppingCart } from "react-icons/hi";
-// import { BsPersonFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
-// import { Button } from "@chakra-ui/react";
 import { User } from "../../Pages/Signup_Login/User";
 
 const Navbar = () => {
@@ -237,43 +235,6 @@ const Navbar = () => {
 
               <div className="icon-div">
                 <User />
-
-                {/* <BsPersonFill className="header-icon" /> */}
-                {/* <div className="main-menu">
-                  <ul>
-                    <li className="icon-name hover-effect ">
-                      <a href="#">PROFILE</a>
-                      <div className="sub-menu-wrap">
-                        <div className="sub-menu">
-                          <div className="user-info">
-                            <span>WELCOME!</span>
-                            <p>To view account details</p>
-                            <Link to="/login">
-                              {" "}
-                              <button className="login-btn">LOGIN</button>
-                            </Link>
-                          </div>
-                          <br />
-                          <hr />
-                          <div className="order-board">
-                            <span>ORDERS</span>
-                            <br />
-                            <span>RETURN REPLACEMENT</span>
-                            <br />
-                            <span>LR CREDITS</span>
-                          </div>
-                          <br />
-                          <hr />
-                          <div className="order-board">
-                            <span>CUSTOMER SUPPORT</span>
-                            <br />
-                            <span>FAQ & HELP</span>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div> */}
               </div>
             </div>
           </div>
