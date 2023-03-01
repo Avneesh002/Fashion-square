@@ -27,7 +27,6 @@ export const productReducer = (state = initialState, { type, payload }) => {
       };
     }
     case PRODUCTS_GET_SUCCESS: {
-      // console.log("reducer", payload);
       return {
         ...state,
         loading: false,
