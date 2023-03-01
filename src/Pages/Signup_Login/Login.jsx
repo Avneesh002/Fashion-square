@@ -23,9 +23,7 @@ const Login = () => {
 
   useEffect(() => {
     if (data.isAuth) {
-      //  console.log("login page" ,state )
       if (state.from) {
-        //  console.log("if inside state.from ",state.from )
         navigate(state.from, { replace: true });
       } else {
         navigate("/");
@@ -34,7 +32,6 @@ const Login = () => {
   }, [data.isAuth]);
 
   return (
-    // maxW='full' centerContent
     <Container maxW="md" mt={6}>
       <Stack maxW={"full"} gap={20} align="stretch">
         <Card
