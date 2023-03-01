@@ -18,7 +18,6 @@ import { auth } from "../Pages/Signup_Login/FireBase";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { login } from "../Redux/Auth/Auth.action";
-// import { async } from "@firebase/util";
 
 const activeLabelStyles = {
   transform: "scale(0.90) translateY(-24px)",
@@ -59,7 +58,7 @@ export default function Floating_Input_Lebel() {
   const [user, setUser] = useState("");
   const [otp, setOtp] = useState("");
   const [error, setError] = useState("");
-  const [loading, setisLoading] = useState(false);
+  const [loading, setIsLoading] = useState(false);
   const [flag, setFlag] = useState(false);
 
   const dispatch = useDispatch();
@@ -73,7 +72,6 @@ export default function Floating_Input_Lebel() {
         {
           size: "invisible",
           callback: (response) => {
-            // onSignup();
             getOtp();
           },
           "expired-callback": () => {},
@@ -84,7 +82,7 @@ export default function Floating_Input_Lebel() {
   }
 
   function getOtp() {
-    setisLoading(true);
+    setIsLoading(true);
     setUpRecaptha();
     const appVerifier = window.recaptchaVerifier;
     const phoneNumber = "+91" + number;
@@ -94,18 +92,17 @@ export default function Floating_Input_Lebel() {
         window.confirmationResult = confirmationResult;
         console.log("getOtp", confirmationResult);
         setFlag(true);
-        setisLoading(false);
-        // setResult(confirmationResult);
+        setIsLoading(false);
       })
       .catch((error) => {
         console.log(error);
         setError(error.message);
-        setisLoading(false);
+        setIsLoading(false);
       });
   }
 
   function onOtpVerify() {
-    setisLoading(true);
+    setIsLoading(true);
     window.confirmationResult
       .confirm(otp)
       .then(async (res) => {
@@ -114,7 +111,7 @@ export default function Floating_Input_Lebel() {
         console.log("uid",res.user.displayName)
         console.log("uid",res.user.photoURL)
         dispatch(login(res.user.accessToken));
-        setisLoading(false);
+        setIsLoading(false);
         setUser(res.operationType);
         if (res.operationType === "signIn") {
           return navigate("/");
@@ -122,7 +119,7 @@ export default function Floating_Input_Lebel() {
       })
       .catch((err) => {
         setError(err.message);
-        setisLoading(false);
+        setIsLoading(false);
         console.log(err);
       });
   }
@@ -136,7 +133,6 @@ export default function Floating_Input_Lebel() {
         flexDirection={"column"}
         gap={6}
       >
-        {/* <form onSubmit={getOtp}> */}
         {flag ? (
           <HStack>
             <PinInput value={otp} onChange={setOtp}>
@@ -189,7 +185,6 @@ export default function Floating_Input_Lebel() {
           </Button>
         ) : (
           <Button
-            // onClick={onSignup}
             onClick={getOtp}
             loadingText="Sending"
             width={"full"}
