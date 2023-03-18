@@ -41,7 +41,6 @@ Fashion Square is an e-commerce website where user can buy fashion products.
 
 ![signIn_logout](https://user-images.githubusercontent.com/101358022/214776988-aeae57c9-5ee5-44de-97df-0bdee7e5d6e2.png)
 
-
 ## Product Page ( Mens Category )
 
 ![productpage](https://user-images.githubusercontent.com/101358022/214775702-16b47e3d-a987-4320-ad26-1e7b1ab6677b.png)
