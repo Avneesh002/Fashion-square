@@ -23,6 +23,7 @@ Fashion Square is an e-commerce website where user can buy fashion products.
 - Chakra UI
 - HTML & CSS
 
+ 
 ## Collaborative Project built by 5 developers in 5 days
 
  * Avneesh Grover
