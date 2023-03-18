@@ -11,7 +11,7 @@ Fashion Square is an e-commerce website where user can buy fashion products.
  `Phone:- 9123456780`
  `OTP:-123456`
  
- <h4> Or you can your use active mobile No. without Country Code (By default Country IND) <h4>
+<h4> Or you can your use active mobile No. without Country Code (By default Country IND) <h4>
  
 ## Tech Stacks Used
 
